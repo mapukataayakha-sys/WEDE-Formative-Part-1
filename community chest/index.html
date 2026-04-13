@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Chest of the Western Cape - Grants, Training & NGO Support</title>
+    <meta name="description" content="Supporting NGOs across South Africa through grants, training, and partnerships since 1928.">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    :root {
+        --navy: #1B3A8A;
+        --green: #2D7A4C;
+        --gold: #D4A844;
+        --light-bg: #F8F7F5;
+        --dark-text: #2C2C2C;
+        --border-gray: #E8E7E5;
+        --shadow: rgba(27, 58, 138, 0.1);
+    }
+
+    body {
+        font-family: Georgia, 'Times New Roman', serif;
+        line-height: 1.7;
+        color: var(--dark-text);
+        background-color: var(--light-bg);
+    }
+
+    h1, h2, h3, h4 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+    }
+
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    nav {
+        background-color: var(--navy);
+        padding: 1.2rem 2rem;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+
+    .nav-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        color: var(--gold);
+        font-size: 1.8rem;
+        font-weight: 700;
+        font-family: Arial, sans-serif;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        gap: 2rem;
+    }
+
+    nav a {
+        color: white;
+        font-weight: 500;
+        font-size: 0.95rem;
+        font-family: Arial, sans-serif;
+    }
+
+    nav a:hover {
+        color: var(--gold);
+    }
+
+    .hero {
+        background: linear-gradient(rgba(27, 58, 138, 0.85), rgba(27, 58, 138, 0.85)), url('https://images.pexels.com/photos/5766174/pexels-photo-5766174.jpeg?auto=compress&cs=tinysrgb&w=1200');
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 6rem 2rem;
+        text-align: center;
+    }
+
+    .hero-content {
+        max-width: 750px;
+        margin: 0 auto;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .hero p {
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+        opacity: 0.9;
+    }
+
+    .tagline {
+        color: var(--gold);
+        font-weight: 600;
+        margin-bottom: 1rem;
+        font-family: Arial, sans-serif;
+    }
+
+    .button-group {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 0.9rem 2rem;
+        border-radius: 4px;
+        font-weight: 600;
+        font-size: 0.95rem;
+        cursor: pointer;
+        border: 2px solid transparent;
+        transition: all 0.2s;
+        font-family: Arial, sans-serif;
+    }
+
+    .btn-primary {
+        background-color: var(--gold);
+        color: var(--navy);
+        border-color: var(--gold);
+    }
+
+    .btn-primary:hover {
+        background-color: transparent;
+        color: var(--gold);
+    }
+
+    .btn-secondary {
+        background-color: transparent;
+        color: white;
+        border: 2px solid white;
+    }
+
+    .btn-secondary:hover {
+        background-color: white;
+        color: var(--navy);
+    }
+
+    .stats {
+        background-color: white;
+        padding: 3rem 2rem;
+        border-top: 4px solid var(--green);
+    }
+
+    .stats-grid {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 2rem;
+        text-align: center;
+    }
+
+    .stat-item h3 {
+        font-size: 2.5rem;
+        color: var(--navy);
+    }
+
+    .stat-item p {
+        color: var(--dark-text);
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 2rem;
+    }
+
+    .about {
+        padding: 5rem 2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+        align-items: center;
+    }
+
+    .about-image {
+        background: var(--green);
+        padding: 0;
+        border-radius: 8px;
+        overflow: hidden;
+        height: 320px;
+    }
+
+    .about-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .about h2 {
+        font-size: 2.2rem;
+        margin-bottom: 1.2rem;
+        color: var(--navy);
+    }
+
+    .about p {
+        margin-bottom: 1rem;
+    }
+
+    .highlight {
+        color: var(--green);
+        font-weight: 600;
+    }
+
+    .mission {
+        background: white;
+        padding: 4rem 2rem;
+        border-left: 4px solid var(--green);
+    }
+
+    .mission-grid {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+    }
+
+    .mission-item h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        color: var(--navy);
+    }
+
+    .programs {
+        padding: 5rem 2rem;
+        background-color: white;
+    }
+
+    .section-title {
+        font-size: 2.2rem;
+        text-align: center;
+        margin-bottom: 3rem;
+        color: var(--navy);
+    }
+
+    .program-grid {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 1.5rem;
+    }
+
+    .program-card {
+        background: var(--light-bg);
+        padding: 1.8rem;
+        border-radius: 6px;
+        border-left: 4px solid var(--green);
+    }
+
+    .program-card h3 {
+        font-size: 1.3rem;
+        margin-bottom: 0.8rem;
+        color: var(--navy);
+    }
+
+    .program-card p {
+        margin-bottom: 1rem;
+        font-size: 0.95rem;
+    }
+
+    .program-link {
+        color: var(--green);
+        font-weight: 600;
+    }
+
+    .stories {
+        padding: 5rem 2rem;
+        background-color: var(--light-bg);
+    }
+
+    .stories-grid {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1.5rem;
+    }
+
+    .story-card {
+        background: white;
+        border-radius: 6px;
+        overflow: hidden;
+    }
+
+    .story-image {
+        background: var(--navy);
+        height: 160px;
+        overflow: hidden;
+    }
+
+    .story-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .story-content {
+        padding: 1.5rem;
+    }
+
+    .story-content h3 {
+        font-size: 1.2rem;
+        margin-bottom: 0.8rem;
+        color: var(--navy);
+    }
+
+    .sector-tag {
+        display: inline-block;
+        background: var(--gold);
+        color: white;
+        padding: 0.3rem 0.8rem;
+        border-radius: 12px;
+        font-size: 0.8rem;
+        font-weight: 600;
+        margin-right: 0.4rem;
+    }
+
+    .get-involved {
+        background: var(--navy);
+        color: white;
+        padding: 5rem 2rem;
+    }
+
+    .involved-grid {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 1.5rem;
+    }
+
+    .involved-card {
+        background: rgba(255, 255, 255, 0.1);
+        padding: 1.8rem;
+        border-radius: 6px;
+    }
+
+    .involved-card h3 {
+        font-size: 1.2rem;
+        margin-bottom: 0.8rem;
+        color: var(--gold);
+    }
+
+    .involved-card .btn {
+        width: 100%;
+    }
+
+    .contact {
+        padding: 5rem 2rem;
+        background-color: white;
+    }
+
+    .contact-wrapper {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+        align-items: start;
+    }
+
+    .contact-info h3 {
+        font-size: 1.4rem;
+        margin-bottom: 1.5rem;
+        color: var(--navy);
+    }
+
+    .contact-detail {
+        margin-bottom: 1.5rem;
+    }
+
+    .contact-detail strong {
+        color: var(--green);
+        display: block;
+        margin-bottom: 0.4rem;
+    }
+
+    .contact-form {
+        background: var(--light-bg);
+        padding: 1.8rem;
+        border-radius: 6px;
+    }
+
+    .form-group {
+        margin-bottom: 1rem;
+    }
+
+    .form-group label {
+        display: block;
+        margin-bottom: 0.4rem;
+        color: var(--navy);
+        font-weight: 600;
+        font-family: Arial, sans-serif;
+        font-size: 0.9rem;
+    }
+
+    .form-group input,
+    .form-group textarea,
+    .form-group select {
+        width: 100%;
+        padding: 0.8rem;
+        border: 1px solid var(--border-gray);
+        border-radius: 4px;
+        font-size: 0.95rem;
+    }
+
+    .form-group input:focus,
+    .form-group textarea:focus,
+    .form-group select:focus {
+        outline: none;
+        border-color: var(--green);
+    }
+
+    .form-group textarea {
+        resize: vertical;
+        min-height: 100px;
+    }
+
+    .submit-btn {
+        width: 100%;
+        background-color: var(--green);
+        color: white;
+        padding: 1rem;
+        border: none;
+        border-radius: 4px;
+        font-weight: 600;
+        cursor: pointer;
+        font-size: 1rem;
+    }
+
+    .submit-btn:hover {
+        background-color: var(--navy);
+    }
+
+    footer {
+        background: var(--navy);
+        color: white;
+        padding: 3rem 2rem 1.5rem;
+    }
+
+    .footer-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .footer-section h4 {
+        margin-bottom: 1rem;
+        color: var(--gold);
+    }
+
+    .footer-section p,
+    .footer-section a {
+        line-height: 1.7;
+        opacity: 0.9;
+        font-size: 0.9rem;
+        color: white;
+        display: block;
+        margin-bottom: 0.6rem;
+    }
+
+    .footer-section a:hover {
+        color: var(--gold);
+    }
+
+    .footer-bottom {
+        text-align: center;
+        padding-top: 1.5rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 0.85rem;
+    }
+
+    @media (max-width: 768px) {
+        .hero h1 {
+            font-size: 2rem;
+        }
+
+        .about,
+        .mission-grid,
+        .contact-wrapper {
+            grid-template-columns: 1fr;
+        }
+
+        nav ul {
+            gap: 1rem;
+        }
+
+        .button-group {
+            flex-direction: column;
+        }
+
+        .btn {
+            width: 100%;
+            text-align: center;
+        }
+    }
+</style>
+
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="#home" class="logo">Community Chest</a>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#programs">Programs</a></li>
+                <li><a href="#stories">Stories</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Community Chest of the Western Cape</h1>
+            <p class="tagline">Mobilizing Communities, Building Capacity</p>
+            <p>Since 1928, we've supported NGOs across South Africa with grants, training, and partnerships. We fund projects in health, education, and community development.</p>
+            <div class="button-group">
+                <a href="#contact" class="btn btn-primary">Apply for a Grant</a>
+                <a href="#about" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats">
+        <div class="stats-grid">
+            <div class="stat-item">
+                <h3>96</h3>
+                <p>Years Supporting NGOs</p>
+            </div>
+            <div class="stat-item">
+                <h3>258</h3>
+                <p>Projects Funded Yearly</p>
+            </div>
+            <div class="stat-item">
+                <h3>10,000+</h3>
+                <p>Leaders Trained</p>
+            </div>
+            <div class="stat-item">
+                <h3>4</h3>
+                <p>Provinces in South Africa</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-image">
+            <img src="https://images.pexels.com/photos/6646855/pexels-photo-6646855.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Community volunteers working together">
+        </div>
+        <div class="about-content">
+            <h2>Our Legacy</h2>
+            <p>Founded in 1928 to support community organizations in Cape Town, Community Chest has grown into a leading funder and capacity builder for NGOs across South Africa.</p>
+            <p>We provide <span class="highlight">grants, training, and partnerships</span> to grassroots organizations working in marginalized communities. Our approach combines financial support with capacity building.</p>
+            <p><strong>Mission:</strong> To improve lives by mobilizing communities, business, and government to advance the common good.</p>
+        </div>
+    </section>
+
+    <section class="mission">
+        <div class="mission-grid">
+            <div class="mission-item">
+                <h3>Why We Exist</h3>
+                <p>Civil society organizations work at the frontlines of social change, yet often lack access to capital and resources. We bridge this gap.</p>
+            </div>
+            <div class="mission-item">
+                <h3>Our Approach</h3>
+                <p>We believe solving South Africa's challenges requires participation from all sectors. Our work invests in developing active citizens across civil society, business, and government.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="programs" id="programs">
+        <div class="container">
+            <h2 class="section-title">Funding Programs</h2>
+            <div class="program-grid">
+                <div class="program-card">
+                    <h3>Income Generation</h3>
+                    <p>Support for organizations developing economic empowerment and livelihood projects.</p>
+                    <a href="#" class="program-link">Learn More</a>
+                </div>
+
+                <div class="program-card">
+                    <h3>Education</h3>
+                    <p>Funding for ECD, adult literacy, skills training, and academic support.</p>
+                    <a href="#" class="program-link">Learn More</a>
+                </div>
+
+                <div class="program-card">
+                    <h3>Health</h3>
+                    <p>Support for health organizations, primary care, and community health programs.</p>
+                    <a href="#" class="program-link">Learn More</a>
+                </div>
+
+                <div class="program-card">
+                    <h3>Community Development</h3>
+                    <p>Grants for community empowerment and grassroots development.</p>
+                    <a href="#" class="program-link">Learn More</a>
+                </div>
+
+                <div class="program-card">
+                    <h3>Capacity Building</h3>
+                    <p>Training in governance, project management, and leadership.</p>
+                    <a href="#" class="program-link">Learn More</a>
+                </div>
+
+                <div class="program-card">
+                    <h3>Partnerships</h3>
+                    <p>Strategic partnerships with corporates, government, and other funders.</p>
+                    <a href="#" class="program-link">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stories" id="stories">
+        <div class="container">
+            <h2 class="section-title">Organizations We Support</h2>
+            <div class="stories-grid">
+                <div class="story-card">
+                    <div class="story-image">
+                        <img src="https://images.pexels.com/photos/29250093/pexels-photo-29250093/free-photo-of-busy-coffee-shop-counter-with-customers.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Skills Academy for Youth">
+                    </div>
+                    <div class="story-content">
+                        <h3>Skills Academy for Youth</h3>
+                        <p>IT and technical training for 500+ youth annually, with 85% employment placement.</p>
+                        <span class="sector-tag">Education</span>
+                        <span class="sector-tag">Income</span>
+                    </div>
+                </div>
+
+                <div class="story-card">
+                    <div class="story-image">
+                        <img src="https://images.pexels.com/photos/18399568/pexels-photo-18399568/free-photo-of-interior-of-a-modern-cafe.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Little Lights ECD Centres">
+                    </div>
+                    <div class="story-content">
+                        <h3>Little Lights ECD Centres</h3>
+                        <p>Six ECD centres serving 300+ children with 92% school readiness rates.</p>
+                        <span class="sector-tag">Education</span>
+                    </div>
+                </div>
+
+                <div class="story-card">
+                    <div class="story-image">
+                        <img src="https://images.pexels.com/photos/29120540/pexels-photo-29120540/free-photo-of-barista-working-in-coffee-shop-interior.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Community Health Workers">
+                    </div>
+                    <div class="story-content">
+                        <h3>Community Health Workers</h3>
+                        <p>150+ health workers providing primary care to 25,000+ residents.</p>
+                        <span class="sector-tag">Health</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="get-involved">
+        <div class="involved-grid">
+            <div class="involved-card">
+                <h3>Apply for Funding</h3>
+                <p>Learn about our grant programs and application process.</p>
+                <a href="#contact" class="btn btn-primary">Start Application</a>
+            </div>
+
+            <div class="involved-card">
+                <h3>Build Capacity</h3>
+                <p>Training programs in leadership and management for NGOs.</p>
+                <a href="#contact" class="btn btn-primary">Explore Training</a>
+            </div>
+
+            <div class="involved-card">
+                <h3>Partner With Us</h3>
+                <p>Corporate and foundation partners can amplify impact.</p>
+                <a href="#contact" class="btn btn-primary">Corporate Giving</a>
+            </div>
+
+            <div class="involved-card">
+                <h3>Make a Donation</h3>
+                <p>Support our grant programs and capacity building.</p>
+                <a href="#contact" class="btn btn-primary">Donate Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Contact Community Chest</h3>
+
+                    <div class="contact-detail">
+                        <strong>Address</strong>
+                        <p>82 Bree Street<br>Cape Town 8000<br>South Africa</p>
+                    </div>
+
+                    <div class="contact-detail">
+                        <strong>Phone</strong>
+                        <p>Main: (021) 421-0000<br>Grants: (021) 421-0010</p>
+                    </div>
+
+                    <div class="contact-detail">
+                        <strong>Email</strong>
+                        <p>info@comchest.org.za<br>grants@comchest.org.za</p>
+                    </div>
+
+                    <div class="contact-detail">
+                        <strong>Hours</strong>
+                        <p>Monday - Friday: 8:30am - 5pm</p>
+                    </div>
+                </div>
+
+                <form class="contact-form" method="POST" action="/submit-contact">
+                    <div class="form-group">
+                        <label for="name">Organization Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Contact Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="inquiry">Inquiry Type</label>
+                        <select id="inquiry" name="inquiry" required>
+                            <option value="">Select an option</option>
+                            <option value="grant">Grant Application</option>
+                            <option value="training">Training Program</option>
+                            <option value="partnership">Partnership</option>
+                            <option value="general">General Inquiry</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About Community Chest</h4>
+                <p>Empowering NGOs and building active citizenship across South Africa since 1928.</p>
+                <p>Registration: PBO 930004040</p>
+            </div>
+
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="#about">About Us</a>
+                <a href="#programs">Programs</a>
+                <a href="#stories">Stories</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="footer-section">
+                <h4>For NGOs</h4>
+                <a href="#">Apply for Funding</a>
+                <a href="#">Capacity Building</a>
+                <a href="#">Resources</a>
+            </div>
+
+            <div class="footer-section">
+                <h4>For Donors</h4>
+                <a href="#">Make a Donation</a>
+                <a href="#">Corporate Giving</a>
+                <a href="#">Annual Reports</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 Community Chest of the Western Cape. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
