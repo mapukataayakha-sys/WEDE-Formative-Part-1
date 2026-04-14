@@ -1,21 +1,18 @@
-# Community Chest Website
+Community Chest Website
 
-A simple, single-file website for a nonprofit organization. Built with plain HTML and CSS—no frameworks, no build process, no dependencies.
+An example of a single-page, minimalist web page of a nonprofit organization. Written in simple HTML and CSS- no frameworks, no build- steps, no dependencies.
 
-## Quick Start
+Quick Start
 
-Open the HTML file directly in your browser:
-```
+You can simply open the HTML file in your browser:
+
 start community-chest-refactored.html
-```
 
-Or serve it locally:
-```
+Or serve it here about:
 python -m http.server 8000
-# Then visit http://localhost:8000
-```
+Then visit http://localhost:8000
 
-## What's Inside
+What's Inside
 
 - Fixed navigation with anchor links
 - Impact statistics section
@@ -24,45 +21,37 @@ python -m http.server 8000
 - Contact form
 - Mobile-responsive layout
 
-## Customization
+Customization
 
-### Colors
-Edit CSS variables at the top of the `<style>` section:
-```css
+Colors
+CSS variables can be edited at the top of <style> section:
+css
 :root {
     --navy: #1B3A8A;
     --green: #2D7A4C;
     --gold: #D4A844;
 }
-```
 
-### Content
-All content is in the HTML file. Edit the organization name, contact details, programs, and success stories directly in the file.
+Content
+Any material is in the HTML file. Directly edit organization name, contact information, programs, and success stories in the file.
 
-### Logo
-Find and replace the logo text in the navigation:
-```html
-<a href="#home" class="logo">Your Organization Name</a>
-```
+Logo
+Locate and substitute the text in the logo of the navigation:
+html
+Your Organization Name - a href id which is being searched is a home.
 
-## Contact Form
+Contact Form
 
-To make the form work, update the form action:
-```html
+In order to update the form work, change the action of the form:
+html
 <form method="POST" action="https://your-form-service.com/submit">
-```
 
-Use Formspree (formspree.io) or Netlify Forms for a simple solution without backend code.
+Git Formspree (formspree.io) or Netlify Forms is a simple solution that does not require any display code.
 
-## Deployment
+Deployment
 
-**Netlify:** Drag the HTML file onto netlify.com
+Netlify: Drop the HTML file on netlify.com.
 
-**GitHub Pages:** Push to a repo, enable Pages in Settings
+GitHub Pages: Commit to a repository, turn on Pages in Settings.
 
-**Any host:** FTP upload the file
-
-## Files
-
-- `community-chest-refactored.html` — The complete website
-- `REFACTORING_NOTES.md` — Technical notes on the code
+Any host: FTP upload the file

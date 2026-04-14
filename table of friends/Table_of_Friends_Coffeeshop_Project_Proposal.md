@@ -1,90 +1,90 @@
-# PROJECT PROPOSAL: TABLE OF FRIENDS COFFEESHOP AND MORE - WEBSITE DEVELOPMENT
+A project proposal table of friends coffeyshop and more - develop a site.
 
-## ORGANISATION OVERVIEW
-**Business Name:** Table of Friends Coffeeshop and More  
-**Established:** Operating in Woodstock since 2021  
-**Location:** 6 Beach Road, Old Castle Brewery, Woodstock, Cape Town 7915, South Africa  
-**Phone:** +27 76 662 9848  
-**Hours:** Monday - Friday: 7:00am - 4:30pm; Saturday & Sunday: Closed  
+ORGANISATION OVERVIEW
+Business Name: Table of Friends Coffeeshop and More.  
+Founded: Since 2021 in Woodstock.  
+Position: 6 Beach Road, Old Castle Brewery, Woodstock, Cape Town 7915, South Africa.  
+Phone: +27 76 662 9848  
+Hours: Monday - Friday: 7:00am -4:30pm; Saturday and Sunday: Closed.  
 
-**Description:** We're a small café in the Old Castle Brewery building in Woodstock. We do specialty coffee, sandwiches, and baking—nothing fancy, just solid food and good coffee. The space is also used for community events and we've built a loyal regular following over the years.
+Description: We are a small cafe on the Old Castle Brewery building in Woodstock. We make specialty coffee, sandwiches and baking- nothing expensive, just good solid food and coffee. We also host community events there and have a following of regulars.
 
-**Mission:** Good food, good coffee, good people. That's basically it.
+Mission: Good people, good food, and good coffee. That's basically it.
 
-**Vision:** We want to be the place locals go to on their way to work or on a lazy Saturday morning. Not the most Instagram-famous café in Woodstock, just the one people actually use.
+Vision: We desire to be the place that people around the neighborhood come when they are going to work or a lazy Saturday morning. It is not the most Instagram famous cafe located in Woodstock, it is the one that people actually go to.
 
-**Target Audience:** People who live and work in Woodstock, remote workers looking for a change of scenery, and occasional tourists wandering through. Our regulars are a mix of creative types, office workers, and older folks who've been coming since we opened.
+Target Audience: The bedrooms and offices of people who work in Woodstock, remote workers seeking a change at work, and occasional tourists passing by. We have various regulars comprised of the creative lot and those who work in offices and younger individuals who have been here ever since we opened our doors.
 
-## WEBSITE GOALS & OBJECTIVES
-**Primary Goals:**
-- People constantly ask us for our menu or hours—Google sometimes shows wrong info so we need a reliable place to point them
-- We'd like to eventually let people order ahead for coffee and pastries, but that's Phase 2
-- Show people what we're actually about—not just another generic café description
-- Let people know about our events and community gatherings
+WEBSITE GOALS & OBJECTIVES
+Primary Goals:
+- People keep on requesting us to provide our menu or hours- Google is known to provide inaccurate information so we should have a reliable source to direct them.
+- Phase 2: Sometime in the future, we would like to enable people to pre-order coffee and pastries.
+- Make people see what we are really about - not simply a generic cafe description.
+- Educate the community about our activities and community events.
 
-**Key Performance Indicators (KPIs):**
-- Monthly website traffic: 1,500+ visits (honestly not sure what we get now, we don't really track it)
-- Menu views: Hard to say—we just want people to be able to find it
-- Customer inquiries: Maybe 10 emails a month asking about catering, private events, and whether we're open on holidays
-- Newsletter subscribers: 200+ (we have about 80 now on a basic Mailchimp setup)
-- Social media referrals: Most of our new customers come from Instagram, so ideally the website supplements that rather than replaces it
+Key Performance Indicators (KPIs):
+- Website traffic: 1,500+ visits monthly (again, we are not quite certain as to the current traffic, we just do not monitor it)
+- Menu views: Not easy, said we--just would like to have the people find it.
+- Customer requests: Potentially, 10 mails each month requesting about our catering, parties and our holiday schedule.
+- Newsletter subscribers: 200+ (at the moment we have approximately 80 on the basic Mailchimp setup)
+- Social media referrals: The majority of our new customers are influenced by Instagram, so hopefully the site can be used in conjunction with it instead of replacing.
 
-## CURRENT WEBSITE ANALYSIS
+CURRENT WEBSITE ANALYSIS
 We don't have a website at the moment. What we have:
-- Instagram (@tableoffriends) with about 2,800 followers—we post most updates there
-- Facebook page that's pretty inactive
-- Google Business profile that sometimes shows wrong hours
+- Instagram (tableoffriends) with approximately 2,800 followers- we update the majority of information there.
+- Facebook page with very inactive.
+- Google Business profile for which incorrect hours may appear.
 
-The main problem is people can't find basic information reliably. They'll search for us and end up on some outdated directory listing or nothing at all. We've lost potential customers because they couldn't figure out if we're open or where we are.
+The fact that people are unable to find basic information reliably is the main problem. They will go and find us, and get on to an old fashioned listings service somewhere or no more. This has cost us potential customers because they were unable to establish whether we were open or not and where we are located.
 
-## PROPOSED WEBSITE FEATURES
-- **Homepage:** Photo of the café, where we are, our hours, and what makes us different
-- **About Us:** Who we are, why we started, what we care about (honestly just good coffee and not being pretentious about it)
-- **Menu:** What we actually serve—coffee, tea, breakfast, lunch, and whatever we're baking that day. We'd like to highlight our sandwiches since those are popular
-- **Daily Specials:** We change things up sometimes and want to show that without updating every day
-- **Gallery:** Real photos of the space, food, and some of our regulars (with permission)
-- **Events:** We do open mic nights, book clubs, and occasional community breakfasts. People ask about these constantly
-- **Contact:** Our address, phone, email, and maybe a simple form for catering inquiries
-- **Newsletter:** Weekly updates on what's new, any menu changes, upcoming events
+PROPOSED WEBSITE FEATURES
+- Homepage: Picture of the cafe, where we are, our hours, and what makes us different.
+-Who we are: Who we are, why we began, what we care about (simply good coffee, we are not fussy about it being so)
+- Menu: What we are actually serving right now coffee, tea, breakfast, lunch and whatever we are baking that day. We'd like to highlight our sandwiches since those are popular
+- Specials of the day: We do not always leave the same and would like to demonstrate that we do not update everything every day.
+- Gallery: Actual photos of the space, food and some of our regulars (with their consent)
+- Activities: we have open mic night, book clubs, and as well as community breakfast events. These are continually questioned by people.
+- Contact: where we are, our number, mail, and probably a little form with the inquiry about catering.
+- Newsletter: Weekly information on what is new, any changes in the menu, events in the future.
 
-## DESIGN & USER EXPERIENCE
-**Aesthetic Direction:** Clean and comfortable. Not trying to look like a design magazine—just reflect what the café actually feels like. Warm, not sterile. Our customers range from university students to retirees, so it needs to work for everyone.
+DESIGN & USER EXPERIENCE
+Aesthetic Direction: Well furnished and tidy. Not attempting to appear like a design magazine- simply mirror the experience of what the cafe really looks like. Warm, not sterile. Our customers can be students of universities and university graduates, as well as retirees, thus it must appeal to all.
 
-**Design Elements:**
-- **Color Scheme:** Earthy tones—browns, creams, maybe some green since we have plants everywhere. Nothing too bright or aggressive
-- **Typography:** Something easy to read. We don't have strong opinions on fonts but want it to feel approachable
-- **Layout:** Simple. Our Instagram is chaotic which works there, but the website should be calm and useful. Big menu, clear hours, easy to find location
-- **User Experience:** Mobile is priority since most people look on their phones. Fast loading since not everyone has great data. Clear menu so people can decide before they arrive
+Design Elements:
+- Color Scheme: Rich colors- brown, cream, possibly some green as we have plants all over. Nothing too vivid or violent.
+- Typography: Easy to read. We are not keen on fonts but would prefer them to feel friendly.
+- Layout: Simple. Our Instagram is noisy and is functional there, whereas the site must be peaceful and helpful. Large food, definite schedules, convenient places.
+- User Experience: Mobile is first as the majority of users look on their phones. Quick loading because we all do not have tremendous data. No confusing menu and enable in-advance decisions.
 
-## TECHNICAL REQUIREMENTS
-- **Languages:** HTML/CSS/JavaScript—simple, nothing overcomplicated
-- **Hosting:** Something reliable, we don't know much about hosting so happy to take recommendations
-- **Domain:** tableoffriendscafe.co.za (available according to our search)
-- **Mobile Responsive:** Yes, definitely
-- **Security:** Basic stuff—we don't need to store anything sensitive
-- **Performance:** Fast enough that people don't leave before the page loads
+TECHNICAL REQUIREMENTS
+- Languages: HTML/CSS/JavaScript - not complex, not complicated.
+- Hosting: Reliable something, we are not very familiar with hosting so happy to accept suggestions.
+Domain: tableoffriendscafe.co.za (available, as per our search)
+- Mobile Responsive: No, no, no
+- Security: Simple things--we need not save anything sensitive.
+- Performance: Quick enough not to make people hang around until the page loads.
 
-## TIMELINE & MILESTONES
-- **Week 1 (April 13-19):** Finalize what we want, gather photos, confirm content
-- **Week 2-3 (April 20 - May 3):** Build the site, get menu and photos in
-- **Week 4 (May 4-10):** Test on phones, fix issues, make sure it loads right
-- **Week 5 (May 11-15):** Content check, launch
-- **Launch:** May 15, 2026
+TIMELINE & MILESTONES
+Week 1 (April 13-19): Decide what we desire, collect pictures, verify material.
+- Week 2-3 (April 20 - May 3): Construct the site, in menu and photos.
+- Week 4 (May 4-10): Test on phones, trouble shoot, ensure that it is loading.
+- Week 5 (May 11-15): Content check, launch
+- Launch: May 15, 2026
 
-We're flexible on timing if things take longer.
+We are lenient about timing, in order to get things done longer.
 
-## BUDGET ESTIMATE
+BUDGET ESTIMATE
 - Web Development: R10,000
-- Domain Registration (annual): R350
+- Domain registration (per year): R350.
 - Hosting (annual): R2,000
-- SSL Certificate (annual): R1,200
-- Professional Photography: R2,500 (we have some phone photos but could use better ones)
+- SSL Certificate (annual): R1,200.
+- Professional Photography: R2,500 (we have a few phone photos but can do with better ones)
 - Maintenance & Updates: R1,500/year
-- **Total Year 1:** R17,550
+- Total Year 1: R17,550
 
-We've set aside this amount from our savings. We're a small business so need to be careful with costs.
+This is what we have saved. And we are a small business which must be cost conscious.
 
-## REFERENCES
-- Our own Instagram and what seems to work there
-- Some other local café websites we've looked at for inspiration
-- Basic web accessibility standards (we want everyone to be able to use it)
+REFERENCES
+- What we think works on our own Instagram and what.
+- These are some other local cafe websites that we have referred to to get inspired.
+- Simple standards of web access (we want everybody to use it)

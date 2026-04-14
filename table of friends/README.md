@@ -1,80 +1,64 @@
-# Table of Friends Coffeeshop
+Table of Friends Coffeeshop
 
-A simple website for a community coffeeshop in Woodstock, Cape Town. Single HTML file, no dependencies, no build process.
+An example of a community coffee-shop in Woodstock, Cape Town. Single HTML, no dependencies, no build process.
 
-## Quick Start
+Quick Start
 
 Open locally:
-```
 start table-of-friends-refactored.html
-```
 
-Or run a local server:
-```
+or run a local server:
 python -m http.server 8000
-# Visit http://localhost:8000
-```
+Visit http://localhost:8000
 
-## What's Inside
+What's Inside
 
-- Navigation with anchor links
-- Hero section with call-to-action
-- Location, hours, and contact info
+- Navigation using anchor links.
+- Hero section containing call-to-action.
+- Address, opening hours and contact details.
 - About section
-- Menu with 5 categories (25+ items)
+- 5 full-category menu (25+ items in each menu)
 - Core values section
 - Daily specials
 - Contact form
 - Mobile-responsive
 
-## Customization
+Customization
 
-### Colors
-Edit CSS variables at the top of `<style>`:
-```css
+Colors
+CSS variables: Edit at the top of style:
 :root {
     --brown: #8B6F47;
     --terracotta: #D97634;
     --cream: #F5F1EA;
 }
-```
 
-### Menu Items
-Find the menu section in the HTML and update items:
-```html
+Menu Items
+Locate menu menu in HTML and make updates:
 <div class="menu-item">
     <h4>Item Name</h4>
     <p>Description</p>
     <span class="price">R00</span>
 </div>
-```
 
-### Contact Info
-Update phone, address, and hours in the Quick Info and Contact sections.
+Contact Info
+Change phone, address and hours in the Quick Info and Contact parts.
 
-### Logo
-Change the logo text:
-```html
-<a href="#home" class="logo">Your Business Name</a>
-```
+Logo
+Alter the text on the logo:
+Your Business Name a href=”#home”
 
-## Contact Form
+Contact Form
 
 Set up the form action:
-```html
 <form method="POST" action="https://formspree.io/f/YOUR_ID">
-```
 
-Sign up at formspree.io for free email submissions.
+Create a free email submission with formspree.io.
 
-## Deployment
+Deployment
 
-**Netlify:** Drag the HTML file onto netlify.com
+Netlify: Drag the HTML file in netlify.com.
 
-**GitHub Pages:** Push to a repo, enable Pages in Settings
+GitHub Pages: Push to a repo, turn on Pages in Settings
 
-**Any host:** FTP upload
-
-## Files
-
-- `table-of-friends-refactored.html` — The complete website
+Any host: FTP upload.
