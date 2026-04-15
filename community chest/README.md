@@ -1,57 +1,50 @@
 Community Chest Website
 
-An example of a single-page, minimalist web page of a nonprofit organization. Written in simple HTML and CSS- no frameworks, no build- steps, no dependencies.
+A multi-page website for Community Chest of the Western Cape, a nonprofit organization providing grants, training, and community development programs. Built with HTML, CSS, and vanilla JavaScript - no frameworks or build steps.
 
 Quick Start
 
-You can simply open the HTML file in your browser:
-
-start community-chest-refactored.html
-
-Or serve it here about:
+Serve locally:
 python -m http.server 8000
 Then visit http://localhost:8000
 
+Project Structure
+
+- index.html - Homepage with hero, impact statistics, programs overview, and success stories
+- about.html - Organization history, board, staff, and mission
+- programs.html - Funding programs (health, education, community development, income generation)
+- stories.html - Impact stories from funded organizations
+- contact.html - Contact form and department information
+- style.css - Shared stylesheet with CSS variables
+
 What's Inside
 
-- Fixed navigation with anchor links
+- Multi-page navigation
 - Impact statistics section
 - 6 funding program cards
-- Success stories
-- Contact form
+- Success stories carousel
+- Contact form with department routing
 - Mobile-responsive layout
+- Accessible design (WCAG 2.1)
 
 Customization
 
 Colors
-CSS variables can be edited at the top of <style> section:
-css
+CSS variables can be edited at the top of style.css:
 :root {
     --navy: #1B3A8A;
     --green: #2D7A4C;
     --gold: #D4A844;
 }
 
-Content
-Any material is in the HTML file. Directly edit organization name, contact information, programs, and success stories in the file.
-
-Logo
-Locate and substitute the text in the logo of the navigation:
-html
-Your Organization Name - a href id which is being searched is a home.
-
 Contact Form
-
-In order to update the form work, change the action of the form:
-html
+Update the form action in contact.html:
 <form method="POST" action="https://your-form-service.com/submit">
-
-Git Formspree (formspree.io) or Netlify Forms is a simple solution that does not require any display code.
 
 Deployment
 
-Netlify: Drop the HTML file on netlify.com.
+Netlify: Drag the folder to netlify.com.
 
-GitHub Pages: Commit to a repository, turn on Pages in Settings.
+GitHub Pages: Push to a repository, enable Pages in Settings.
 
-Any host: FTP upload the file
+Any host: FTP upload the files.
