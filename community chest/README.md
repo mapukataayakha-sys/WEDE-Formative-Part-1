@@ -1,62 +1,56 @@
-# Community Chest Website
+Community Chest Website
 
-A multi-page website for Community Chest of the Western Cape, a nonprofit organization providing grants, training, and community development programs. Built with HTML and CSS - no frameworks or JavaScript required.
+A multi-page site of Community Chest of the Western Cape, which is a nonprofit making organization offering grants, training and community development services. Constructed using HTML and CSS - no frameworks or JavaScript needed.
 
-## Quick Start
+Quick Start
 
 Serve locally:
-```
 python -m http.server 8000
-```
 Then visit http://localhost:8000
 
-## Project Structure
+Project Structure
 
-- `index.html` - Homepage with hero, impact statistics, programs overview, and success stories
-- `about.html` - Organization history, mission, values, and leadership
-- `programs.html` - Detailed funding programs (health, education, community development, income generation)
-- `stories.html` - Impact stories from funded organizations
-- `contact.html` - Contact form with department routing
-- `style.css` - Shared stylesheet with CSS variables
+- index.html - Homepage that includes hero, impact statistics, programs overview, and success stories.
+- about.html - Mission, values, history of organization and leadership.
+- programs.html - Funding programs (health, education, community development, income generation) in detail.
+- stories.html - Impact stories of funded organizations.
+- contact.html - Department-routed contact form.
+- style.css - common stylesheet containing CSS variables.
 
-## What's Inside
+What's Inside
 
-- Multi-page navigation with 5 complete pages
+- 5 pages of multiple-page navigation.
 - Impact statistics section
-- 6 detailed funding program cards
-- Featured impact stories with quotes
-- Contact form with department routing
-- Mobile-responsive layout with hamburger menu
+- 6 program cards in detail of funding programs.
+- Bold highlighted case studies including quotation.
+- Department routing contact form.
+- Responsive design with hamburger menu.
 - Accessible design (WCAG 2.1)
-- Skip-to-content link for keyboard users
+- Skip-to-content link to use with the keyboard.
 - Focus states for all interactive elements
-- Semantic HTML landmarks (header, main, footer)
+- header, main, footer (semantic HTML)
 
-## Browser Support
+Browser Support
 
-- Modern browsers (Chrome, Firefox, Safari, Edge)
+- Contemporary browsers (Chrome, Firefox, Safari, Edge)
 - Mobile-first responsive design
 
-## Customization
+Customization
 
-### Colors
-CSS variables can be edited at the top of `style.css`:
-```css
+Colors
+CSS variables can be edited, at the top of style.css:
 :root {
     --navy: #1B3A8A;
     --green: #2D7A4C;
     --gold: #D4A844;
 }
-```
 
-### Contact Form
-Update the form action in `contact.html`:
-```html
+Contact Form
+Modify the action in the form in the contact.html:
 <form method="POST" action="https://your-form-service.com/submit">
-```
 
-## Deployment
+Deployment
 
-- **Netlify**: Drag the folder to netlify.com
-- **GitHub Pages**: Push to a repository, enable Pages in Settings
-- **Any host**: FTP upload the files
+- Netlify: Drag the folder to netlify.com.
+- GitHub Pages: Add to repository, turn Pages on in Settings.
+- Any host: FTP upload the files
