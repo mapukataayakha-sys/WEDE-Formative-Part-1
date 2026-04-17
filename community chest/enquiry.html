@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry - Community Chest of the Western Cape</title>
+    <meta name="description" content="Make an enquiry to Community Chest of the Western Cape.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <header role="banner">
+        <nav role="navigation" aria-label="Main navigation">
+            <div class="nav-container">
+                <a href="index.html" class="logo">Community Chest</a>
+                <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">Menu</label>
+                <input type="checkbox" id="nav-toggle" class="nav-toggle">
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="programs.html">Programs</a></li>
+                    <li><a href="stories.html">Stories</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="enquiry.html" class="active">Enquiry</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main id="main-content">
+        <section class="page-header">
+            <div class="container">
+                <h1>Make an Enquiry</h1>
+                <p class="tagline">We're here to help</p>
+            </div>
+        </section>
+
+        <section class="enquiry-intro">
+            <div class="container">
+                <p>Have a question? We'd love to hear from you. Fill out the form below and our team will get back to you within 2-3 business days.</p>
+            </div>
+        </section>
+
+        <section class="enquiry-form-section">
+            <div class="container">
+                <form class="enquiry-form" action="mailto:info@comchest.org.za" method="POST" enctype="text/plain">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="first-name">First Name <span aria-hidden="true">*</span></label>
+                            <input type="text" id="first-name" name="first-name" required aria-required="true">
+                        </div>
+                        <div class="form-group">
+                            <label for="last-name">Last Name <span aria-hidden="true">*</span></label>
+                            <input type="text" id="last-name" name="last-name" required aria-required="true">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="organisation">Organisation (if applicable)</label>
+                        <input type="text" id="organisation" name="organisation">
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email Address <span aria-hidden="true">*</span></label>
+                            <input type="email" id="email" name="email" required aria-required="true">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="enquiry-type">Enquiry Type <span aria-hidden="true">*</span></label>
+                        <select id="enquiry-type" name="enquiry-type" required aria-required="true">
+                            <option value="">Select an option</option>
+                            <option value="grant">Grant Information</option>
+                            <option value="training">Training Programmes</option>
+                            <option value="partnership">Partnership Opportunities</option>
+                            <option value="volunteering">Volunteering</option>
+                            <option value="media">Media & Press</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject <span aria-hidden="true">*</span></label>
+                        <input type="text" id="subject" name="subject" required aria-required="true">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Your Message <span aria-hidden="true">*</span></label>
+                        <textarea id="message" name="message" required aria-required="true" rows="8"></textarea>
+                    </div>
+
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                        <label for="newsletter">Subscribe to our newsletter for updates on grants, programmes and events</label>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Submit Enquiry</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="quick-contacts">
+            <div class="container">
+                <h2>Other Ways to Reach Us</h2>
+                <div class="quick-contact-cards">
+                    <div class="quick-contact-card">
+                        <h3>Call Us</h3>
+                        <p><strong>Main Office:</strong> (021) 421-0000</p>
+                        <p>Monday - Friday: 8:30am - 5pm</p>
+                    </div>
+                    <div class="quick-contact-card">
+                        <h3>Email Us</h3>
+                        <p><strong>General:</strong> info@comchest.org.za</p>
+                        <p><strong>Grants:</strong> grants@comchest.org.za</p>
+                    </div>
+                    <div class="quick-contact-card">
+                        <h3>Visit Us</h3>
+                        <p>82 Bree Street</p>
+                        <p>Cape Town 8000, South Africa</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer role="contentinfo">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About Community Chest</h4>
+                <p>Empowering NGOs and building active citizenship across South Africa since 1928.</p>
+                <p>Registration: PBO 930004040</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="about.html">About Us</a>
+                <a href="programs.html">Programs</a>
+                <a href="stories.html">Stories</a>
+                <a href="contact.html">Contact</a>
+                <a href="enquiry.html">Enquiry</a>
+            </div>
+            <div class="footer-section">
+                <h4>For NGOs</h4>
+                <a href="enquiry.html">Apply for Funding</a>
+                <a href="enquiry.html">Capacity Building</a>
+            </div>
+            <div class="footer-section">
+                <h4>For Donors</h4>
+                <a href="contact.html">Make a Donation</a>
+                <a href="contact.html">Corporate Giving</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Community Chest of the Western Cape. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
