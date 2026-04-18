@@ -1,59 +1,92 @@
-Table of Friends Coffeeshop
+# Table of Friends Coffeeshop
 
-A multi-page website for Table of Friends Coffeeshop and More, a community coffee shop in Woodstock, Cape Town. Built with HTML, CSS, and vanilla JavaScript - no frameworks or build process.
+A single-page website for Table of Friends Coffeeshop and More, a community coffee shop in Woodstock, Cape Town. Built with HTML5 and CSS3 - minimal JavaScript optional.
 
-Quick Start
+## Quick Start
 
 Serve locally:
+```bash
 python -m http.server 8000
+```
 Then visit http://localhost:8000
 
-Project Structure
+## Project Structure
 
-- index2.html - Homepage with hero, about, hours, and location
-- about.html - Story of the cafe and what makes us different
-- menu.html - Full menu categories (coffee, tea, breakfast, lunch, baking)
-- specials.html - Daily specials section
-- contact.html - Contact form, location, and catering inquiries
-- All styles inline in HTML files
+- `index.html` - Single-page homepage containing all content sections:
+  - Hero with call-to-action
+  - About section (cafe story and values)
+  - Quick info bar (location, hours, phone)
+  - Full menu (coffee, tea, breakfast, lunch, baked goods, drinks)
+  - Daily specials
+  - Values section
+  - Contact form
+  - Image gallery
+  - Footer with social links
+- `about.html` - Redirects to `index.html#about`
+- `menu.html` - Redirects to `index.html#menu`
+- `specials.html` - Redirects to `index.html#specials`
+- `contact.html` - Redirects to `index.html#contact`
 
-What's Inside
+## Features Implemented
 
-- Multi-page navigation
-- Hero section with call-to-action
-- Address, opening hours, and contact details
-- About section with cafe story
-- 5 full-category menu (25+ items each)
-- Daily specials section
-- Contact form
-- Mobile-responsive layout
+- Single-page design with smooth-scrolling anchor navigation
+- Vanity URL redirect pages for direct linking to sections
+- Responsive navigation with CSS-only hamburger menu
+- Quick info bar displaying location, hours, and phone number
+- Complete menu with categorized items and prices (25+ items)
+- Daily specials section with rotating deals
+- Values/About section describing the cafe's mission
+- Image gallery showcasing the space, food, and regulars
+- Contact form with inquiry routing
+- Responsive footer with social media links
+- Mobile-first responsive design
 
-Customization
+## Technical Stack
 
-Colors
-CSS variables can be edited at the top of style.css:
+- HTML5 + CSS3 (no JavaScript required)
+- Mobile-first responsive design
+- CSS-only hamburger menu
+- External stylesheet: `style.css`
+- Anchor-based navigation with smooth scrolling
+
+## Customization
+
+### Colors
+
+CSS variables are defined in `style.css`:
+```css
 :root {
     --brown: #8B6F47;
     --terracotta: #D97634;
     --cream: #F5F1EA;
 }
+```
 
-Menu Items
-Locate menu items in menu.html and update:
+### Menu Items
+
+Menu items are defined in `index.html` within the menu section:
+```html
 <div class="menu-item">
     <h4>Item Name</h4>
     <p>Description</p>
     <span class="price">R00</span>
 </div>
+```
 
-Contact Form
-Set up the form action in contact.html:
+### Contact Form
+
+Update the form action in `index.html`:
+```html
 <form method="POST" action="https://formspree.io/f/YOUR_ID">
+```
 
-Deployment
+## Deployment
 
-Netlify: Drag the folder to netlify.com.
+- **Netlify**: Drag and drop the folder to netlify.com
+- **GitHub Pages**: Push to a repository and enable Pages in Settings
+- **Any host**: Upload files via FTP
 
-GitHub Pages: Push to a repository, enable Pages in Settings.
+## Browser Support
 
-Any host: FTP upload the files.
+- Modern browsers (Chrome, Firefox, Safari, Edge)
+- Mobile-first responsive design

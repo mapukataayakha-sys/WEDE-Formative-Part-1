@@ -1,56 +1,74 @@
-Community Chest Website
+# Community Chest of the Western Cape
 
-A multi-page site of Community Chest of the Western Cape, which is a nonprofit making organization offering grants, training and community development services. Constructed using HTML and CSS - no frameworks or JavaScript needed.
+A multi-page website for Community Chest of the Western Cape, a nonprofit organization offering grants, training, and community development services across South Africa. Built with HTML5 and CSS3 - no JavaScript required.
 
-Quick Start
+## Quick Start
 
 Serve locally:
+```bash
 python -m http.server 8000
+```
 Then visit http://localhost:8000
 
-Project Structure
+## Project Structure
 
-- index.html - Homepage that includes hero, impact statistics, programs overview, and success stories.
-- about.html - Mission, values, history of organization and leadership.
-- programs.html - Funding programs (health, education, community development, income generation) in detail.
-- stories.html - Impact stories of funded organizations.
-- contact.html - Department-routed contact form.
-- style.css - common stylesheet containing CSS variables.
+- `index.html` - Homepage with hero, impact statistics, programs overview, and success stories
+- `about.html` - Organization history, mission, vision, values, and management team
+- `programs.html` - Funding programs (health, education, community development, income generation) with eligibility criteria
+- `stories.html` - Impact stories of funded organizations with sector filtering
+- `contact.html` - Contact form with department routing based on inquiry type
 
-What's Inside
+## Features Implemented
 
-- 5 pages of multiple-page navigation.
+- Multi-page navigation with real HTML pages
+- Responsive hamburger menu (CSS-only, no JavaScript)
+- Accessibility features:
+  - Skip-to-main-content link for keyboard navigation
+  - Visible focus indicators (3px gold outline)
+  - Semantic HTML elements (header, main, footer, nav, article, section)
+  - ARIA labels on navigation and interactive elements
+  - WCAG 2.1 compliant design
 - Impact statistics section
-- 6 program cards in detail of funding programs.
-- Bold highlighted case studies including quotation.
-- Department routing contact form.
-- Responsive design with hamburger menu.
-- Accessible design (WCAG 2.1)
-- Skip-to-content link to use with the keyboard.
-- Focus states for all interactive elements
-- header, main, footer (semantic HTML)
+- Program cards with detailed eligibility information
+- Testimonials and success stories with quotations
+- Department-routed contact form
+- Responsive mobile-first design
+- CSS custom properties for theming (navy, green, gold)
 
-Browser Support
+## Technical Stack
 
-- Contemporary browsers (Chrome, Firefox, Safari, Edge)
+- HTML5 + CSS3 (no JavaScript needed for core functionality)
 - Mobile-first responsive design
+- CSS-only hamburger menu using checkbox hack
+- External stylesheet: `style.css`
 
-Customization
+## Customization
 
-Colors
-CSS variables can be edited, at the top of style.css:
+### Colors
+
+CSS variables are defined in `style.css`:
+```css
 :root {
     --navy: #1B3A8A;
     --green: #2D7A4C;
     --gold: #D4A844;
 }
+```
 
-Contact Form
-Modify the action in the form in the contact.html:
+### Contact Form
+
+Update the form action in `contact.html`:
+```html
 <form method="POST" action="https://your-form-service.com/submit">
+```
 
-Deployment
+## Deployment
 
-- Netlify: Drag the folder to netlify.com.
-- GitHub Pages: Add to repository, turn Pages on in Settings.
-- Any host: FTP upload the files
+- **Netlify**: Drag and drop the folder to netlify.com
+- **GitHub Pages**: Push to a repository and enable Pages in Settings
+- **Any host**: Upload files via FTP
+
+## Browser Support
+
+- Modern browsers (Chrome, Firefox, Safari, Edge)
+- Mobile-first responsive design
