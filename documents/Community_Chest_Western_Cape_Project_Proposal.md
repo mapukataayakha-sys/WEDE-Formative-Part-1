@@ -87,9 +87,25 @@ BUDGET ESTIMATE
 This is taken out of our operating budget. The approved amount of the project by the board was up to R25,000.
 
 REFERENCES
-- Community Chest internal records and Annual reports.
-- ForGood South Africa not for profit register.
-- WCAG 2.1 accessibility guidelines
+Community Chest Western Cape (2025) Annual Report 2024. Cape Town: Community Chest Western Cape.
+
+ForGood (2025) ForGood South Africa Non-Profit Register. Available at: https://www.forgood.co.za/ (Accessed: 18 April 2026).
+
+World Wide Web Consortium (W3C) (2018) Web Content Accessibility Guidelines (WCAG) 2.1. Available at: https://www.w3.org/WAI/WCAG21/quickref/ (Accessed: 18 April 2026).
+
+South African Nonprofit Council (2025) NGO Best Practices in South Africa. Available at: https://www.sanpco.org.za (Accessed: 18 April 2026).
+
+Charity Water (2025) Nonprofit Website Design Guide. Available at: https://www.charitywater.org/blog/nonprofit-website/ (Accessed: 18 April 2026).
+
+TechSoup (2025) Technology for Nonprofits: Website Essentials. Available at: https://www.techsoup.org (Accessed: 18 April 2026).
+
+W3Schools (2025) Responsive Web Design Tutorial. Available at: https://www.w3schools.com/css/css_rwd_intro.asp (Accessed: 18 April 2026).
+
+Google (2025) Google Analytics for Nonprofits. Available at: https://analytics.google.com (Accessed: 18 April 2026).
+
+Internet World Stats (2025) Internet Usage Statistics - Africa. Available at: https://www.internetworldstats.com/af/za.htm (Accessed: 18 April 2026).
+
+Mailchimp (2025) Email Marketing for Nonprofits. Available at: https://mailchimp.com/resources/nonprofit-email-marketing/ (Accessed: 18 April 2026).
 
 IMPLEMENTATION COMPLETED
 

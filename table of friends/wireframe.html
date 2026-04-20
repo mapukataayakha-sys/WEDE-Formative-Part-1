@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table of Friends - Wireframe</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            background: #f5f5f5;
+            padding: 40px;
+        }
+        
+        .wireframe-container {
+            max-width: 1440px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+        
+        .wireframe-header {
+            background: #1a1a1a;
+            color: white;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo-placeholder {
+            width: 200px;
+            height: 40px;
+            background: #333;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            padding-left: 16px;
+            font-weight: 600;
+            font-size: 14px;
+        }
+        
+        .nav-placeholder {
+            display: flex;
+            gap: 24px;
+        }
+        
+        .nav-item {
+            width: 80px;
+            height: 20px;
+            background: #333;
+            border-radius: 4px;
+        }
+        
+        .section {
+            padding: 60px 40px;
+            border-bottom: 1px dashed #ccc;
+        }
+        
+        .section-label {
+            background: #e0e0e0;
+            color: #333;
+            padding: 8px 16px;
+            font-size: 12px;
+            font-weight: 600;
+            border-radius: 4px;
+            margin-bottom: 24px;
+            display: inline-block;
+        }
+        
+        .hero-wireframe {
+            background: linear-gradient(135deg, #2d2d2d 0%, #404040 100%);
+            padding: 120px 40px;
+            text-align: center;
+        }
+        
+        .hero-title {
+            width: 400px;
+            height: 60px;
+            background: #444;
+            border-radius: 8px;
+            margin: 0 auto 24px;
+        }
+        
+        .hero-subtitle {
+            width: 200px;
+            height: 24px;
+            background: #555;
+            border-radius: 4px;
+            margin: 0 auto 24px;
+        }
+        
+        .hero-desc {
+            width: 600px;
+            height: 16px;
+            background: #555;
+            border-radius: 4px;
+            margin: 0 auto 32px;
+        }
+        
+        .button-group {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+        }
+        
+        .btn-placeholder {
+            width: 140px;
+            height: 48px;
+            border-radius: 8px;
+        }
+        
+        .btn-primary {
+            background: #d4a574;
+        }
+        
+        .btn-secondary {
+            background: transparent;
+            border: 2px solid #d4a574;
+        }
+        
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+        }
+        
+        .info-item {
+            background: #f8f8f8;
+            padding: 24px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        .info-icon {
+            width: 48px;
+            height: 48px;
+            background: #ddd;
+            border-radius: 50%;
+            margin: 0 auto 16px;
+        }
+        
+        .info-title {
+            width: 100px;
+            height: 16px;
+            background: #ccc;
+            border-radius: 4px;
+            margin: 0 auto 12px;
+        }
+        
+        .info-desc {
+            width: 120px;
+            height: 12px;
+            background: #eee;
+            border-radius: 4px;
+            margin: 0 auto;
+        }
+        
+        .about-wireframe {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+        
+        .image-placeholder {
+            width: 100%;
+            height: 400px;
+            background: #e8e8e8;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px dashed #bbb;
+        }
+        
+        .about-content h2 {
+            width: 150px;
+            height: 32px;
+            background: #333;
+            border-radius: 4px;
+            margin-bottom: 24px;
+        }
+        
+        .about-content p {
+            width: 100%;
+            height: 14px;
+            background: #ddd;
+            border-radius: 4px;
+            margin-bottom: 12px;
+        }
+        
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+        
+        .menu-category {
+            background: #f8f8f8;
+            padding: 24px;
+            border-radius: 8px;
+        }
+        
+        .category-title {
+            width: 140px;
+            height: 24px;
+            background: #333;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+        
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+        
+        .item-name {
+            width: 120px;
+            height: 14px;
+            background: #ddd;
+            border-radius: 4px;
+        }
+        
+        .item-price {
+            width: 50px;
+            height: 14px;
+            background: #ccc;
+            border-radius: 4px;
+        }
+        
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+        }
+        
+        .value-item {
+            background: #f8f8f8;
+            padding: 24px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        .value-item h3 {
+            width: 140px;
+            height: 20px;
+            background: #333;
+            border-radius: 4px;
+            margin: 0 auto 16px;
+        }
+        
+        .value-item p {
+            width: 100%;
+            height: 12px;
+            background: #eee;
+            border-radius: 4px;
+        }
+        
+        .special-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+        
+        .special-card {
+            background: #f8f8f8;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        .special-header {
+            background: #d4a574;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .special-header h3 {
+            width: 100px;
+            height: 24px;
+            background: white;
+            border-radius: 4px;
+            margin: 0 auto;
+        }
+        
+        .special-content {
+            padding: 24px;
+        }
+        
+        .special-content p {
+            width: 100%;
+            height: 14px;
+            background: #ddd;
+            border-radius: 4px;
+            margin-bottom: 12px;
+        }
+        
+        .savings {
+            background: #4a7c59 !important;
+            width: 80px;
+            height: 20px;
+            margin-top: 16px;
+        }
+        
+        .contact-wireframe {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+        }
+        
+        .contact-info h3 {
+            width: 150px;
+            height: 24px;
+            background: #333;
+            border-radius: 4px;
+            margin-bottom: 24px;
+        }
+        
+        .contact-detail {
+            margin-bottom: 24px;
+        }
+        
+        .contact-detail strong {
+            display: block;
+            width: 80px;
+            height: 14px;
+            background: #333;
+            border-radius: 4px;
+            margin-bottom: 8px;
+        }
+        
+        .contact-detail p {
+            width: 180px;
+            height: 12px;
+            background: #ddd;
+            border-radius: 4px;
+        }
+        
+        .form-wireframe {
+            background: #f8f8f8;
+            padding: 32px;
+            border-radius: 8px;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        .form-group label {
+            display: block;
+            width: 80px;
+            height: 14px;
+            background: #ccc;
+            border-radius: 4px;
+            margin-bottom: 8px;
+        }
+        
+        .form-input {
+            width: 100%;
+            height: 44px;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        
+        textarea.form-input {
+            height: 120px;
+        }
+        
+        .submit-btn {
+            width: 100%;
+            height: 48px;
+            background: #d4a574;
+            border-radius: 8px;
+            border: none;
+        }
+        
+        .footer-wireframe {
+            background: #1a1a1a;
+            padding: 60px 40px;
+        }
+        
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 40px;
+        }
+        
+        .footer-section h4 {
+            width: 100px;
+            height: 16px;
+            background: #555;
+            border-radius: 4px;
+            margin-bottom: 16px;
+        }
+        
+        .footer-section p {
+            width: 100%;
+            height: 12px;
+            background: #333;
+            border-radius: 4px;
+            margin-bottom: 8px;
+        }
+        
+        .footer-bottom {
+            border-top: 1px solid #333;
+            margin-top: 40px;
+            padding-top: 20px;
+            text-align: center;
+        }
+        
+        .footer-bottom p {
+            width: 200px;
+            height: 12px;
+            background: #333;
+            border-radius: 4px;
+            margin: 0 auto;
+        }
+        
+        .wireframe-badge {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #ff5722;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 14px;
+            box-shadow: 0 4px 12px rgba(255,87,34,0.3);
+        }
+        
+        @media (max-width: 1024px) {
+            .info-grid, .values-grid, .footer-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .menu-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .about-wireframe, .contact-wireframe {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 20px;
+            }
+            
+            .section {
+                padding: 40px 20px;
+            }
+            
+            .info-grid, .values-grid, .menu-grid, .special-grid, .footer-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .nav-placeholder {
+                display: none;
+            }
+            
+            .hero-title {
+                width: 100%;
+            }
+            
+            .hero-desc {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="wireframe-badge">WIREFRAME</div>
+    
+    <div class="wireframe-container">
+        <header class="wireframe-header">
+            <div class="logo-placeholder">Table of Friends</div>
+            <nav class="nav-placeholder">
+                <div class="nav-item"></div>
+                <div class="nav-item"></div>
+                <div class="nav-item"></div>
+                <div class="nav-item"></div>
+                <div class="nav-item"></div>
+            </nav>
+        </header>
+        
+        <section class="hero-wireframe">
+            <div class="hero-title"></div>
+            <div class="hero-subtitle"></div>
+            <div class="hero-desc"></div>
+            <div class="button-group">
+                <div class="btn-placeholder btn-primary"></div>
+                <div class="btn-placeholder btn-secondary"></div>
+            </div>
+        </section>
+        
+        <section class="section">
+            <span class="section-label">Quick Info Bar</span>
+            <div class="info-grid">
+                <div class="info-item">
+                    <div class="info-icon"></div>
+                    <div class="info-title"></div>
+                    <div class="info-desc"></div>
+                </div>
+                <div class="info-item">
+                    <div class="info-icon"></div>
+                    <div class="info-title"></div>
+                    <div class="info-desc"></div>
+                </div>
+                <div class="info-item">
+                    <div class="info-icon"></div>
+                    <div class="info-title"></div>
+                    <div class="info-desc"></div>
+                </div>
+                <div class="info-item">
+                    <div class="info-icon"></div>
+                    <div class="info-title"></div>
+                    <div class="info-desc"></div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section">
+            <span class="section-label">About Section</span>
+            <div class="about-wireframe">
+                <div class="image-placeholder">Image Placeholder</div>
+                <div class="about-content">
+                    <h2></h2>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section">
+            <span class="section-label">Menu Section</span>
+            <div class="menu-grid">
+                <div class="menu-category">
+                    <div class="category-title"></div>
+                    <div class="menu-item">
+                        <div class="item-name"></div>
+                        <div class="item-price"></div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name"></div>
+                        <div class="item-price"></div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name"></div>
+                        <div class="item-price"></div>
+                    </div>
+                </div>
+                <div class="menu-category">
+                    <div class="category-title"></div>
+                    <div class="menu-item">
+                        <div class="item-name"></div>
+                        <div class="item-price"></div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name"></div>
+                        <div class="item-price"></div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name"></div>
+                        <div class="item-price"></div>
+                    </div>
+                </div>
+                <div class="menu-category">
+                    <div class="category-title"></div>
+                    <div class="menu-item">
+                        <div class="item-name"></div>
+                        <div class="item-price"></div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name"></div>
+                        <div class="item-price"></div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name"></div>
+                        <div class="item-price"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section">
+            <span class="section-label">Values Section</span>
+            <div class="values-grid">
+                <div class="value-item">
+                    <h3></h3>
+                    <p></p>
+                </div>
+                <div class="value-item">
+                    <h3></h3>
+                    <p></p>
+                </div>
+                <div class="value-item">
+                    <h3></h3>
+                    <p></p>
+                </div>
+                <div class="value-item">
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section">
+            <span class="section-label">Daily Specials</span>
+            <div class="special-grid">
+                <div class="special-card">
+                    <div class="special-header">
+                        <h3></h3>
+                    </div>
+                    <div class="special-content">
+                        <p></p>
+                        <p></p>
+                        <div class="savings"></div>
+                    </div>
+                </div>
+                <div class="special-card">
+                    <div class="special-header">
+                        <h3></h3>
+                    </div>
+                    <div class="special-content">
+                        <p></p>
+                        <p></p>
+                        <div class="savings"></div>
+                    </div>
+                </div>
+                <div class="special-card">
+                    <div class="special-header">
+                        <h3></h3>
+                    </div>
+                    <div class="special-content">
+                        <p></p>
+                        <p></p>
+                        <div class="savings"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section">
+            <span class="section-label">Contact Section</span>
+            <div class="contact-wireframe">
+                <div class="contact-info">
+                    <h3></h3>
+                    <div class="contact-detail">
+                        <strong></strong>
+                        <p></p>
+                    </div>
+                    <div class="contact-detail">
+                        <strong></strong>
+                        <p></p>
+                    </div>
+                    <div class="contact-detail">
+                        <strong></strong>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="form-wireframe">
+                    <div class="form-group">
+                        <label></label>
+                        <div class="form-input"></div>
+                    </div>
+                    <div class="form-group">
+                        <label></label>
+                        <div class="form-input"></div>
+                    </div>
+                    <div class="form-group">
+                        <label></label>
+                        <div class="form-input"></div>
+                    </div>
+                    <div class="form-group">
+                        <label></label>
+                        <textarea class="form-input"></textarea>
+                    </div>
+                    <button class="submit-btn"></button>
+                </div>
+            </div>
+        </section>
+        
+        <footer class="footer-wireframe">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4></h4>
+                    <p></p>
+                    <p></p>
+                </div>
+                <div class="footer-section">
+                    <h4></h4>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                </div>
+                <div class="footer-section">
+                    <h4></h4>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                </div>
+                <div class="footer-section">
+                    <h4></h4>
+                    <p></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p></p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

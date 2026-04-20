@@ -85,9 +85,25 @@ BUDGET ESTIMATE
 This is what we have saved. And we are a small business which must be cost conscious.
 
 REFERENCES
-- What we think works on our own Instagram and what.
-- These are some other local cafe websites that we have referred to to get inspired.
-- Simple standards of web access (we want everybody to use it)
+Table of Friends (2025) Instagram Profile. Available at: https://instagram.com/tableoffriends (Accessed: 18 April 2026).
+
+Google (2025) Google Business Profile: Get Your Business on Google. Available at: https://business.google.com (Accessed: 18 April 2026).
+
+Web Content Accessibility Guidelines (WCAG) 2.1 (2018) World Wide Web Consortium (W3C). Available at: https://www.w3.org/WAI/WCAG21/quickref/ (Accessed: 18 April 2026).
+
+Nielsen Norman Group (2020) Website Usability: What Users Want. Available at: https://www.nngroup.com/articles/website-usability/ (Accessed: 18 April 2026).
+
+Statista (2025) Mobile Internet Usage in South Africa. Available at: https://www.statista.com/statistics/1393976/mobile-internet-usage-in-south-africa/ (Accessed: 18 April 2026).
+
+W3Schools (2025) HTML/CSS Tutorial. Available at: https://www.w3schools.com/html/ (Accessed: 18 April 2026).
+
+Mailchimp (2025) Email Marketing for Small Business. Available at: https://mailchimp.com (Accessed: 18 April 2026).
+
+Shopify (2025) Digital Marketing for Small Cafes. Available at: https://www.shopify.co.za (Accessed: 18 April 2026).
+
+Crazy Egg (2025) Website Heatmaps and Analytics. Available at: https://www.crazyegg.com (Accessed: 18 April 2026).
+
+Google (2025) PageSpeed Insights. Available at: https://pagespeed.web.dev/ (Accessed: 18 April 2026).
 
 IMPLEMENTATION COMPLETED
 
