@@ -114,19 +114,19 @@ Table of Friends Coffeeshop
 - [x] ARIA attributes implemented
 - [x] `prefers-reduced-motion` media query present
 - [x] Print stylesheet implemented
-- [x] `&lt;footer role="contentinfo"&gt;` and `&lt;header role="banner"&gt;` on all pages
+- [x] `<footer role="contentinfo">` and `<header role="banner">` on all pages
 - [x] All files committed to GitHub with descriptive messages
 
 ## 10. Changelog
 
 | Date | Version | Changes |
 |------|---------|---------|
-| 2025-04-13 | 0.1.0 | Project planning and structure established for 6 pages (index, about, menu, specials, contact, enquiry) |
-| 2025-04-15 | 0.2.0 | Implemented HTML5 semantic structure with header, nav, main, footer, skip-to-content links, and ARIA attributes |
-| 2025-04-17 | 0.3.0 | Added full CSS with variables, reset, responsive hamburger menu, and mobile-first media queries |
-| 2025-04-19 | 0.4.0 | Added ARIA labels, aria-current="page" on active nav, focus-visible styles, accessibility features |
-| 2025-04-21 | 0.5.0 | Separated all content to real standalone HTML pages (replaced meta-refresh redirects), added contact and enquiry pages |
-| 2025-05-19 | 1.0.0 | Part 1 complete — all files ready for submission; downloaded images locally; added comprehensive README |
+| 2026-04-13 | 0.1.0 | Project planning and structure established for 6 pages (index, about, menu, specials, contact, enquiry) |
+| 2026-04-15 | 0.2.0 | Implemented HTML5 semantic structure with header, nav, main, footer, skip-to-content links, and ARIA attributes |
+| 2026-04-17 | 0.3.0 | Added full CSS with variables, reset, responsive hamburger menu, and mobile-first media queries |
+| 2026-04-19 | 0.4.0 | Added ARIA labels, aria-current="page" on active nav, focus-visible styles, accessibility features |
+| 2026-04-21 | 0.5.0 | Separated all content to real standalone HTML pages (replaced meta-refresh redirects), added contact and enquiry pages |
+| 2026-05-19 | 1.0.0 | Part 1 complete — all files ready for submission; downloaded images locally; added comprehensive README |
 
 ## 11. References (Harvard Style)
 
@@ -140,8 +140,8 @@ Table of Friends Coffeeshop
 
 ## 12. Student Information
 
-- **Name:** [Your Name]
-- **Student Number:** [Your Number]
+- **Name:** Ayakha Mapukata
+- **Student Number:** ST10533919
 - **Module:** WEDE5020 — Web Design and Development
 - **Submission Date:** 19 May 2026
 

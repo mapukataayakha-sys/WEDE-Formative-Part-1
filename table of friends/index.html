@@ -50,7 +50,7 @@
         <section class="quick-info" aria-labelledby="quick-info-heading">
             <div class="info-grid">
                 <div class="info-item">
-                    <strong id="quick-info-heading">Location</strong>
+                    <h2 id="quick-info-heading">Quick Info</h2>
                     <p>6 Beach Road<br>Old Castle Brewery<br>Woodstock</p>
                 </div>
                 <div class="info-item">
@@ -190,6 +190,29 @@
                             <span class="price">R30</span>
                         </div>
                     </div>
+                    <div class="menu-category" aria-labelledby="drinks-heading">
+                        <h3 id="drinks-heading" class="menu-category-title">Drinks</h3>
+                        <div class="menu-item">
+                            <h4>Hot Tea</h4>
+                            <p>Loose-leaf selection</p>
+                            <span class="price">R25</span>
+                        </div>
+                        <div class="menu-item">
+                            <h4>Fresh Juice</h4>
+                            <p>Orange, apple, or mixed</p>
+                            <span class="price">R35</span>
+                        </div>
+                        <div class="menu-item">
+                            <h4>Smoothie</h4>
+                            <p>Banana, berries, yogurt</p>
+                            <span class="price">R55</span>
+                        </div>
+                        <div class="menu-item">
+                            <h4>Hot Chocolate</h4>
+                            <p>Rich and creamy</p>
+                            <span class="price">R40</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -297,7 +320,7 @@
             <div class="container">
                 <h2 id="newsletter-heading">Stay in the Loop</h2>
                 <p>Get weekly updates about our menu, specials, and community events delivered to your inbox.</p>
-                <form class="newsletter-form" action="#" method="POST">
+                <form class="newsletter-form" action="/api/subscribe" method="POST">
                     <label for="newsletter-signup" class="visually-hidden">Email address</label>
                     <input type="email" id="newsletter-signup" name="email" placeholder="Your email address" required>
                     <button type="submit" class="btn btn-primary">Subscribe</button>
@@ -329,7 +352,7 @@
                             <p>Monday – Friday: 7am – 4:30pm<br>Saturday: Closed<br>Sunday: Closed</p>
                         </div>
                     </div>
-                    <form class="contact-form" method="POST" action="mailto:hello@tableoffriends.co.za" enctype="text/plain">
+                    <form class="contact-form" action="/api/contact" method="POST">
                         <div class="form-group">
                             <label for="name">Your Name <span aria-hidden="true">*</span></label>
                             <input type="text" id="name" name="name" required aria-required="true">
@@ -375,12 +398,12 @@
             </div>
             <div class="footer-section">
                 <h4>Follow Us</h4>
-                <a href="https://www.instagram.com" rel="noopener noreferrer" target="_blank">Instagram</a>
-                <a href="https://www.facebook.com" rel="noopener noreferrer" target="_blank">Facebook</a>
+                <a href="https://www.instagram.com/tableoffriends" rel="noopener noreferrer" target="_blank">Instagram</a>
+                <a href="https://www.facebook.com/tableoffriends" rel="noopener noreferrer" target="_blank">Facebook</a>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&amp;copy; 2025 Table of Friends Coffeeshop. All rights reserved.</p>
+            <p>&amp;copy; 2026 Table of Friends Coffeeshop. All rights reserved.</p>
         </div>
     </footer>
     <script src="js/main.js"></script>

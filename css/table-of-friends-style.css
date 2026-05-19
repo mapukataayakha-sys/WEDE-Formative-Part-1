@@ -65,7 +65,7 @@
     }
 
     .hero {
-        background: linear-gradient(rgba(107, 83, 68, 0.85), rgba(107, 83, 68, 0.85)), url('https://images.pexels.com/photos/29250093/pexels-photo-29250093.jpeg?auto=compress&cs=tinysrgb&w=1200');
+        background: linear-gradient(rgba(107, 83, 68, 0.85), rgba(107, 83, 68, 0.85)), url('../images/pexels-photo-29120540.webp');
         background-size: cover;
         background-position: center;
         color: white;

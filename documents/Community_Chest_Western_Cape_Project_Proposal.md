@@ -1,8 +1,8 @@
 # COMMUNITY CHEST OF THE WESTERN CAPE — WEBSITE PROPOSAL
 
 **Subject:** WEDE5020 — Web Design and Development Project Proposal
-**Student Name:** [Your Name]
-**Student Number:** [Your Number]
+**Student Name:** Ayakha Mapukata
+**Student Number:** ST10533919
 **Date:** 19 May 2026
 
 ---
@@ -26,11 +26,11 @@
 
 ## 1. Executive Summary
 
-Community Chest of the Western Cape has been a pillar of NGO support since 1928, providing grants, training, and capacity building to organisations across South Africa. Yet the current website — last redesigned in 2018 — no longer meets the needs of today's digital landscape. With 68% of web traffic coming from mobile devices and key processes such as grant applications still buried in the navigation, the site is preventing donors and NGO leaders from doing what they need to do efficiently.
+Community Chest of the Western Cape has been a pillar of NGO support since 1928, providing grants, training, and capacity building to organisations across South Africa. Yet the current website — last redesigned in 2018 — no longer meets the needs of today's digital landscape. With approximately 68% of web traffic coming from mobile devices (StatCounter, 2025; accessed 18 April 2026) and key processes such as grant applications still buried in the navigation, the site is preventing donors and NGO leaders from doing what they need to do efficiently.
 
 This proposal details a comprehensive redesign of the Community Chest website. The new site will surface impact statistics (R14.2M awarded in 2024; 147 partner organisations), provide clear pathways to funding programmes and training, host impactful beneficiary stories, and enable direct contact and service enquiries. All of this will be delivered through a professional, accessible, mobile-first design that embodies the trust and warmth intrinsic to the Community Chest brand.
 
-The estimated development cost is **R12,000**, with an additional **R8,650** for first-year hosting, domain, SSL, and ongoing support. The project will be completed within six weeks, with the site going live by **15 May 2026**.
+The estimated development cost is **R12,000**, with an additional **R8,050** for first-year hosting, domain, SSL, and ongoing support. The project will be completed within six weeks, with the site going live by **29 May 2026**.
 
 ---
 
@@ -182,7 +182,7 @@ Wireframes were exported from the project's `wireframe.html` file.
 | 3 | 27 April – 3 May | Full CSS styling, responsive design, hamburger menu, image sourcing from Pexels |
 | 4 | 4–10 May | HTML validation, ARIA labels, `aria-current`, skip-to-content links, CSS variables, mobile testing |
 | 5 | 11–17 May | Bug fixes, comprehensive README, commit history, axe DevTools testing, screen-reader testing |
-| Launch | 15 May 2026 | Site deployed publicly and ready for production use |
+| Launch | 29 May 2026 | Site deployed publicly and ready for production use |
 
 ---
 
@@ -220,12 +220,13 @@ Wireframes were exported from the project's `wireframe.html` file.
 - Mailchimp (2025) 'Email Marketing for Nonprofits'. Available at: https://mailchimp.com/resources/nonprofit-email-marketing/ (Accessed: 18 April 2026).
 - Deque Systems (2025) 'axe DevTools Accessibility Testing'. Available at: https://www.deque.com/axe/devtools/ (Accessed: 18 April 2026).
 - WebAIM (2025) 'Web Accessibility In Mind — Contrast Checker'. Available at: https://webaim.org/resources/contrastchecker/ (Accessed: 19 May 2026).
+- Mapukata, A. (2026) 'WEDE Formative Part 1 — GitHub Repository'. Available at: https://github.com/mapukataayakha-sys/WEDE-Formative-Part-1 (Accessed: 19 May 2026).
 
 ---
 
 ## Student Information
 
-- **Name:** [Your Name]
-- **Student Number:** [Your Number]
+- **Name:** Ayakha Mapukata
+- **Student Number:** ST10533919
 - **Module:** WEDE5020 — Web Design and Development
 - **Submission Date:** 19 May 2026

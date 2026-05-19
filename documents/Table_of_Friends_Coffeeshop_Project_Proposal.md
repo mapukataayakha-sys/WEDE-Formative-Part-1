@@ -1,8 +1,8 @@
 # TABLE OF FRIENDS COFFEESHOP AND MORE — WEBSITE PROPOSAL
 
 **Subject:** WEDE5020 — Web Design and Development Project Proposal
-**Student Name:** [Your Name]
-**Student Number:** [Your Number]
+**Student Name:** Ayakha Mapukata
+**Student Number:** ST10533919
 **Date:** 19 May 2026
 
 ---
@@ -30,7 +30,7 @@ Table of Friends Coffeeshop and More is a small but beloved coffee shop operatin
 
 This proposal outlines the development of a modern, responsive, multi-page website that serves as a central hub for the business. The site will feature a full menu with prices, information about upcoming community events, a gallery of the space and food, and contact and enquiry forms for customers. The website is designed with a mobile-first approach to serve the majority of users browsing on their phones, and will be accessible to all visitors following WCAG 2.1 Level AA standards.
 
-The estimated development cost is **R10,000**, with an additional **R6,800** for first-year hosting, domain, SSL, and maintenance. The project will be completed within six weeks, with the site going live by **15 May 2026**.
+The estimated development cost is **R12,000**, with an additional **R8,050** for first-year hosting, domain, SSL, and maintenance. The project will be completed within six weeks, with the site going live by **15 May 2026**.
 
 ---
 
@@ -143,7 +143,7 @@ Wireframes were exported from the project's `wireframe.html` file and embedded i
 
 | Element | Font | Size |
 |---------|------|------|
-| Body Text | Segoe UI | 11pt / 1rem |
+| Body Text | Segoe UI | 1rem / 16px (≈12pt) |
 | H1, H2, H3 | Segoe UI Bold | 2–3rem |
 | Line Spacing | 1.5 | — |
 
@@ -180,12 +180,12 @@ Wireframes were exported from the project's `wireframe.html` file and embedded i
 
 | Week | Dates | Deliverables |
 |------|-------|--------------|
-| 1 | 13–19 April | Content planning, image sourcing, wireframes, folder structure |
-| 2 | 20–26 April | Build all 6 HTML pages with navigation and semantic structure |
-| 3 | 27 April – 3 May | Complete CSS styling, responsive design, hamburger menu, image sourcing |
-| 4 | 4–10 May | Add CSS variables, focus styles, skip-to-content, ARIA, form validation, accessibility testing |
-| 5 | 11–17 May | Final bug fixes, README, commit history, validation, screen-reader testing |
-| Launch | 15 May 2026 | Site deployed and ready for production |
+| 1 | 13–19 April (completed) | Content planning, image sourcing, wireframes, folder structure |
+| 2 | 20–26 April (completed) | Build all 6 HTML pages with navigation and semantic structure |
+| 3 | 27 April – 3 May (completed) | Complete CSS styling, responsive design, hamburger menu, image sourcing |
+| 4 | 4–10 May (completed) | Add CSS variables, focus styles, skip-to-content, ARIA, form validation, accessibility testing |
+| 5 | 11–17 May (completed) | Final bug fixes, README, commit history, validation, screen-reader testing |
+| Launch | 15 May 2026 (completed) | Site deployed and ready for production |
 
 ---
 
@@ -221,12 +221,13 @@ Note: Development costs are fixed; hosting/domain/SSL costs are standard market 
 - MDN Web Docs (2025) 'HTML reference'. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML (Accessed: 19 May 2026).
 - WebAIM (2025) 'Contrast Checker'. Available at: https://webaim.org/resources/contrastchecker/ (Accessed: 19 May 2026).
 - Deque Systems (2025) 'axe DevTools Accessibility Testing'. Available at: https://www.deque.com/axe/devtools/ (Accessed: 19 May 2026).
+- Mapukata, A. (2026) 'WEDE Formative Part 1 — GitHub Repository'. Available at: https://github.com/mapukataayakha-sys/WEDE-Formative-Part-1 (Accessed: 19 May 2026).
 
 ---
 
 ## Student Information
 
-- **Name:** [Your Name]
-- **Student Number:** [Your Number]
+- **Name:** Ayakha Mapukata
+- **Student Number:** ST10533919
 - **Module:** WEDE5020 — Web Design and Development
 - **Submission Date:** 19 May 2026

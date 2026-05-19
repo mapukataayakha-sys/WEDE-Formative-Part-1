@@ -146,8 +146,8 @@ Community Chest of the Western Cape
 
 ## 12. Student Information
 
-- **Name:** [Your Name]
-- **Student Number:** [Your Number]
+- **Name:** Ayakha Mapukata
+- **Student Number:** ST10533919
 - **Module:** WEDE5020 — Web Design and Development
 - **Submission Date:** 19 May 2026
 
