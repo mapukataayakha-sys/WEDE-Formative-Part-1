@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry - Table of Friends Coffeeshop</title>
+    <meta name="description" content="Make a catering or private event enquiry with Table of Friends Coffeeshop in Woodstock, Cape Town.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <header role="banner">
+        <nav role="navigation" aria-label="Main navigation">
+            <div class="nav-container">
+                <a href="index.html" class="logo">Table of Friends</a>
+                <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">Menu</label>
+                <input type="checkbox" id="nav-toggle" class="nav-toggle">
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="specials.html">Specials</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="enquiry.html" aria-current="page">Enquiry</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main id="main-content">
+        <section class="page-header">
+            <div class="container">
+                <h1>Enquiries</h1>
+                <p class="tagline">Catering, Private Events &amp; More</p>
+            </div>
+        </section>
+
+        <section class="enquiry-intro">
+            <div class="container">
+                <p>Planning an event or need catering? Whether it's a small gathering, a corporate breakfast, or a special occasion, we'd love to help.</p>
+                <p>Fill out the form below and we'll get back to you within 24 hours.</p>
+                <p>We cater for office breakfasts, meetings, baby showers, birthdays, and more. Get in touch to discuss your requirements and we'll put together a custom quote.</p>
+            </div>
+        </section>
+
+        <section class="enquiry-form-section">
+            <div class="container">
+                <form class="enquiry-form" action="mailto:hello@tableoffriends.co.za" method="POST" enctype="text/plain">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="first-name">First Name <span aria-hidden="true">*</span></label>
+                            <input type="text" id="first-name" name="first-name" required aria-required="true">
+                        </div>
+                        <div class="form-group">
+                            <label for="last-name">Last Name <span aria-hidden="true">*</span></label>
+                            <input type="text" id="last-name" name="last-name" required aria-required="true">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address <span aria-hidden="true">*</span></label>
+                        <input type="email" id="email" name="email" required aria-required="true" aria-describedby="email-help">
+                        <p id="email-help" class="help-text">We'll never share your email address.</p>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="event-type">Enquiry Type <span aria-hidden="true">*</span></label>
+                        <select id="event-type" name="event-type" required aria-required="true">
+                            <option value="">Select an option</option>
+                            <option value="catering">Catering</option>
+                            <option value="private-event">Private Event / Booking</option>
+                            <option value="corporate">Corporate Breakfast</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="date">Preferred Date</label>
+                        <input type="date" id="date" name="date">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="guests">Number of Guests</label>
+                        <input type="number" id="guests" name="guests" min="1" placeholder="Approximate number">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Your Message <span aria-hidden="true">*</span></label>
+                        <textarea id="message" name="message" required aria-required="true" rows="6" aria-describedby="msg-help"></textarea>
+                        <p id="msg-help" class="help-text">Tell us about your event or catering needs — date, number of guests, menu preferences, budget etc.</p>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Submit Enquiry</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="enquiry-options">
+            <div class="container">
+                <h2>Other Ways to Reach Us</h2>
+                <div class="quick-contact-cards">
+                    <div class="quick-contact-card">
+                        <h3>Call Us</h3>
+                        <p><strong>Phone:</strong> +27 76 662 9848</p>
+                        <p>Mon – Fri: 7am – 4:30pm</p>
+                    </div>
+                    <div class="quick-contact-card">
+                        <h3>Location</h3>
+                        <p><strong>Address:</strong></p>
+                        <p>6 Beach Road<br>Old Castle Brewery<br>Woodstock, Cape Town 7915</p>
+                    </div>
+                    <div class="quick-contact-card">
+                        <h3>Email Us</h3>
+                        <p><strong>General:</strong> hello@tableoffriends.co.za</p>
+                        <p><strong>Catering:</strong> catering@tableoffriends.co.za</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer role="contentinfo">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About</h4>
+                <p>A community coffee shop in Woodstock, Cape Town. Good coffee, good food, good company.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="menu.html">Menu</a>
+                <a href="specials.html">Specials</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-section">
+                <h4>Visit Us</h4>
+                <p>6 Beach Road<br>Old Castle Brewery<br>Woodstock, Cape Town</p>
+                <p>+27 76 662 9848</p>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <a href="https://www.instagram.com" rel="noopener noreferrer" target="_blank">Instagram</a>
+                <a href="https://www.facebook.com" rel="noopener noreferrer" target="_blank">Facebook</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Table of Friends Coffeeshop. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

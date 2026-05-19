@@ -3,10 +3,131 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Table of Friends</title>
-    <meta http-equiv="refresh" content="0;url=index.html#contact">
+    <title>Contact - Table of Friends Coffeeshop</title>
+    <meta name="description" content="Contact Table of Friends Coffeeshop — find us at Old Castle Brewery, Woodstock, Cape Town. Hours, directions, and our contact form.">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <p>Redirecting to <a href="index.html#contact">Contact</a>...</p>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <header role="banner">
+        <nav role="navigation" aria-label="Main navigation">
+            <div class="nav-container">
+                <a href="index.html" class="logo">Table of Friends</a>
+                <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">Menu</label>
+                <input type="checkbox" id="nav-toggle" class="nav-toggle">
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="specials.html">Specials</a></li>
+                    <li><a href="contact.html" aria-current="page">Contact</a></li>
+                    <li><a href="enquiry.html">Enquiry</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main id="main-content">
+        <section class="page-header">
+            <div class="container">
+                <h1>Get in Touch</h1>
+                <p class="tagline">Visit or Message Us</p>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-info">
+                    <h2>Find Us</h2>
+
+                    <div class="contact-detail">
+                        <strong>Address</strong>
+                        <p>6 Beach Road<br>Old Castle Brewery<br>Woodstock<br>Cape Town 7915<br>South Africa</p>
+                    </div>
+
+                    <div class="contact-detail">
+                        <strong>Phone</strong>
+                        <p>+27 76 662 9848</p>
+                    </div>
+
+                    <div class="contact-detail">
+                        <strong>Email</strong>
+                        <p>hello@tableoffriends.co.za</p>
+                    </div>
+
+                    <div class="contact-detail">
+                        <strong>Opening Hours</strong>
+                        <p>Monday – Friday: 7:00am – 4:30pm<br>Saturday: Closed<br>Sunday: Closed</p>
+                    </div>
+
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.0!2d18.44!3d-33.92!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzPCrDEzJzE4LjAiTiAxOMKwMjgnNDkuMCJF!5e0!3m2!1sen!2sza!4v0000000000000"
+                            width="100%"
+                            height="300"
+                            style="border:0; border-radius:8px;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Table of Friends location on Google Maps">
+                        </iframe>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <h2>Send Us a Message</h2>
+                    <form class="contact-form" action="mailto:hello@tableoffriends.co.za" method="POST" enctype="text/plain">
+                        <div class="form-group">
+                            <label for="name">Your Name <span aria-hidden="true">*</span></label>
+                            <input type="text" id="name" name="name" required aria-required="true">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address <span aria-hidden="true">*</span></label>
+                            <input type="email" id="email" name="email" required aria-required="true" aria-describedby="email-help">
+                            <p id="email-help" class="help-text">We'll never share your email address.</p>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="direct-message">Your Message</label>
+                            <textarea id="direct-message" name="message" rows="6" aria-describedby="msg-help"></textarea>
+                            <p id="msg-help" class="help-text">Tell us how we can help or just say g'day.</p>
+                        </div>
+
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer role="contentinfo">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About</h4>
+                <p>A community coffee shop in Woodstock, Cape Town. Good coffee, good food, good company.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="menu.html">Menu</a>
+                <a href="specials.html">Specials</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-section">
+                <h4>Visit Us</h4>
+                <p>6 Beach Road<br>Old Castle Brewery<br>Woodstock, Cape Town</p>
+                <p>+27 76 662 9848</p>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <a href="https://www.instagram.com" rel="noopener noreferrer" target="_blank">Instagram</a>
+                <a href="https://www.facebook.com" rel="noopener noreferrer" target="_blank">Facebook</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Table of Friends Coffeeshop. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
 </body>
 </html>

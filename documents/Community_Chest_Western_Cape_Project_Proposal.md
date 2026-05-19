@@ -1,143 +1,231 @@
-The project being proposed is the redesigning of the website of Community Chest of the Western Cape.
+# COMMUNITY CHEST OF THE WESTERN CAPE — WEBSITE PROPOSAL
 
-ORGANISATION OVERVIEW
-Website: communitychestwestercapefoodbank.co.za/community-chest/organization-what-we-do. 
-Established: 1928  
-Location: 82 Bree Street Cape Town City Centre Cape Town City 8000, South Africa.  
-History: Community Chest was established in 1928, as the Cape Town Welfare Board, which makes it one of the oldest civil society organizations in South Africa. Our activities include training, community dialogues and grants and in-kind donations to organizations operating throughout the province of the Western Cape.
+**Subject:** WEDE5020 — Web Design and Development Project Proposal
+**Student Name:** [Your Name]
+**Student Number:** [Your Number]
+**Date:** 19 May 2026
 
-Mission: To enhance the lives of every South African in mobilising the loving power of communities, business and government to further the common good.
+---
 
-Vision: A world in which everyone and every family can realize his/her human potential through access to a world-class education, social and economic justice, income gains, and access to a healthy lifestyle.
+## Table of Contents
 
-Target: audience people who work on grants and capacity building, and would like to donate to the work of NGOs; donors who would like to contribute to community development; corporate partners and community development practitioners and organizations in marginalized communities all over South Africa, which operate in health, education, community development and income generation sectors.
+1. Executive Summary ................................................................................................................................ 2
+2. Business Overview ................................................................................................................................ 3
+3. Project Goals & Objectives ................................................................................................................... 3
+4. Target Audience .................................................................................................................................. 4
+5. Technical Requirements ....................................................................................................................... 5
+6. Design Approach .................................................................................................................................. 5
+7. Sitemap & Page Structure .................................................................................................................... 6
+8. Wireframes ............................................................................................................................................ 6
+9. Content Plan ......................................................................................................................................... 7
+10. Timeline & Milestones ......................................................................................................................... 8
+11. Budget & Costs .................................................................................................................................... 8
+12. References ........................................................................................................................................... 9
 
-WEBSITE GOALS & OBJECTIVES
-Primary Goals:
-- streamline access to and application of grants to NGO leaders- now we receive a call every week with an organization that was not aware that it could access certain sources of funds.
-- Save time on simple queries by our administrators related to recruitment and deadlines.
-- Open your books up to potential donors, and demonstrate how their money is spent-- now our annual report is a PDF file that is being read by virtually no one.
-- Provide training participants with one location to access course materials, classes and certificates.
-- Get contacts of visitors to establish a mailing list to promote grant applications and training announcements.
+---
 
-Key Performance Indicators (KPIs):
-- Traffic to monthly website: 5,000+ visits (we are not tracking this yet, hence this is an informed estimate similar to like nonprofit sites)
-- Grant appls: 35 or more / month (we are actually currently at 25 with a hope of increasing this with more visible deadlines)
-- Donor inquiries: 15+ monthly (nowadays most donor inquiries are with word-of-mouth)
-- Registrations: 40 or more people in a training cohort (our previous training cohort had 32 people)
-- Subscribers to newsletters: 1,200+ in 6 months (we currently have approximately 600 via Mailchimp)
-- Page load time: Less than 3 seconds mobile (vital to users in township with slower connections)
+## 1. Executive Summary
 
-CURRENT WEBSITE ANALYSIS
-We are now on our present platform at comchest.org.za which was created in 2018 and has served us fairly well, but it requires some ageing:
+Community Chest of the Western Cape has been a pillar of NGO support since 1928, providing grants, training, and capacity building to organisations across South Africa. Yet the current website — last redesigned in 2018 — no longer meets the needs of today's digital landscape. With 68% of web traffic coming from mobile devices and key processes such as grant applications still buried in the navigation, the site is preventing donors and NGO leaders from doing what they need to do efficiently.
 
-- The grant application is hidden- we have had applicants fail to meet their deadline due to the inability to have the information at their fingertips.
-- Mobile-first was not designed as most of our mobile-based traffic.
-- There is no easy way to have past grant recipients do a follow-up or story of success.
-- Apply for Funding button is unobvious in the menu and becomes confused with the overall contacts.
-- Our impact statistics (14.2 million awarded last year, 147 organizations) are generally interspersed across various pages and difficult to locate.
-- The site has been said by several board members to appear old-fashioned in comparison with the newer NGO sites they have visited.
+This proposal details a comprehensive redesign of the Community Chest website. The new site will surface impact statistics (R14.2M awarded in 2024; 147 partner organisations), provide clear pathways to funding programmes and training, host impactful beneficiary stories, and enable direct contact and service enquiries. All of this will be delivered through a professional, accessible, mobile-first design that embodies the trust and warmth intrinsic to the Community Chest brand.
 
-PROPOSED WEBSITE FEATURES
-- Homepage: Very visible grant applications call to action, upcoming grant application deadlines, impact statistics in a nutshell, rotating spotlight on 2-3 organizations that it has supported.
-- Our History: Our 96 year history, our board and staff, how we make funding decisions, our relationship with the National Community Chest.
-- Grant Programs: Each funding stream (health, education, community development, income generation) has its own page, with clear eligibility criteria, average award amount, and general reasons the applications are rejected.
-- Training Hub: Future training, resources to download after previous participants, course registration, expectations of each training course.
-- Impact Stories: Documentations of successful organizations that are funded, complete with pictures and quotes of the individuals running the projects- not just statistics.
-- Donor Portal: How to give a donation, what your donation funds, our annual report in a readable format, partnering with corporations.
-- Resource Library: Application templates, past successful applications (anonymous), best practice guides, report templates of current grantees.
-- News & Events: Community dialogue, grant deadline, the connection to our social media.
-- Support and Contacts: Direct contact per department, Frequently asked questions based on the questions we get, checklist of applications.
+The estimated development cost is **R12,000**, with an additional **R8,650** for first-year hosting, domain, SSL, and ongoing support. The project will be completed within six weeks, with the site going live by **15 May 2026**.
 
-DESIGN & USER EXPERIENCE
-Aesthetic Direction: Our vision is to make the site appear like a credible and established organization, not containing flashy, but a professional warm organization. We are not attempting to appear like a technology start-up. A lot of our customers are long-time NGO leaders accustomed to standard layouts, hence we would prefer something easy to use as opposed to a fashionable thing.
+---
 
-Design Elements:
-- Color Scheme: Navy (1B3A8A), green (2D7A4C), gold (D4A844) - something official, yet friendly. We are just interested in not doing a full rebrand, we would prefer to keep our colors.
-- Typography: Clean, readable. Nothing fancy. We would like our visitors to get the impression that the time-saving is taken into account on the site.
-- Design: Well-organized hierarchy with major actions ( Apply for Funding, Donate, Contact ) right in front of your eyes. And we are weary of hearing of users complaining that they could not find how to apply.
-- User Interface: It is vital that the grant search is functional- the users need to be allowed to filter based on sector, amount, and deadline. Mobile is top priority because the number of our users accessing their phones is so large. Accessibility is important- a few of our partner organizations deal with the communities that are sightless.
+## 2. Business Overview
 
-Low-Fidelity Wireframes: The wireframes depict the home page, grant directory including filters, and training calendar. Shall be glad to provide these to you at our next meeting.
-TECHNICAL REQUIREMENTS
-- Languages: HTML5, CSS3, JavaScript - nothing very much complicated, as it should be possible to maintain this on our own further.
-- Hosting: We are presently on a shared hosting and is slow. Checking something that is more trusted, such as AWS or such a vendor.
-- Domain: comchest.org.za (this will be required to be retained)
-- Mobile Responsive: Essential. According to our Google Analytics 68 percent of the traffic is on the mobile.
-- Security Simple SSL, safeguarding against spam inquiries on contact forms.
-- Integrations: Mailchimp to newsletters (we already use this), there is a possibility of adding a donation gateway in the future (which will be approved after getting board consent).
+**Organisation Name:** Community Chest of the Western Cape
+**Established:** 1928 (originally Cape Town Welfare Board)
+**Location:** 82 Bree Street, Cape Town City Centre, 8000, South Africa
+**Registration:** PBO 930004040
 
-TIMELINE & MILESTONES
-- Week 1 (April 13-19): Finalize content, establish direction of design, host set-up.
-- Wk 2-3 (April 20 May 3) Pages: Build core pages, grant directory, training section.
-- Week 4 (May 4-10): Checking the testing, optimization of mobile access, accessibility.
-- Week 5 (May 11- 15): Stocked population, personnel training based on changes.
-- Launch: May 15, 2026
+**History:** Community Chest was founded in 1928 as the Cape Town Welfare Board, making it one of the oldest civil society organisations in South Africa. Over nearly a century it has evolved from a simple community fundraising fund into a comprehensive development partner — providing grants, training, strategic partnerships, and advocacy support across the Western Cape and beyond.
 
-This is small yet achievable as we are maintaining the scope narrow.
+**Mission:** To improve lives by mobilising communities, business, and government to advance the common good through grants, training, and partnerships.
 
-BUDGET ESTIMATE
-- Web Development: R12,000 (obtained quote by our developer contact)
-- Hosting (annual): R3,500
-- Domain (annual): R400
-- SSL Certificate (per year): R1,200.
-- Support and Software updates: R3,000/year.
-- Total Year 1: R20,100
+**Vision:** A South Africa where all people have the opportunity to participate fully in community life and access the resources they need to thrive.
 
-This is taken out of our operating budget. The approved amount of the project by the board was up to R25,000.
+**Activities:** Grant funding for health, education, community development, and income generation programmes; capacity building and governance training for NGOs; corporate and individual donor engagement; community dialogues.
 
-REFERENCES
-Community Chest Western Cape (2025) Annual Report 2024. Cape Town: Community Chest Western Cape.
+---
 
-ForGood (2025) ForGood South Africa Non-Profit Register. Available at: https://www.forgood.co.za/ (Accessed: 18 April 2026).
+## 3. Project Goals & Objectives
 
-World Wide Web Consortium (W3C) (2018) Web Content Accessibility Guidelines (WCAG) 2.1. Available at: https://www.w3.org/WAI/WCAG21/quickref/ (Accessed: 18 April 2026).
+| Goal | Metric |
+|------|--------|
+| G1: Make grant applications visible and accessible | Grant applications: 35+ per month (currently ~25) |
+| G2: Save administrator time on routine queries | Reduce admin call volume on recruitment and deadline questions |
+| G3: Demonstrate donor impact through stories and statistics | 1,200+ newsletter subscribers within 6 months (currently ~600) |
+| G4: Provide a central hub for training participants | 40+ registrations per training cohort (currently 32) |
+| G5: Increase monthly website traffic | 5,000+ monthly visits with Google Analytics tracking enabled |
+| G6: Improve mobile user experience | Page load time under 3 seconds on mobile devices |
 
-South African Nonprofit Council (2025) NGO Best Practices in South Africa. Available at: https://www.sanpco.org.za (Accessed: 18 April 2026).
+---
 
-Charity Water (2025) Nonprofit Website Design Guide. Available at: https://www.charitywater.org/blog/nonprofit-website/ (Accessed: 18 April 2026).
+## 4. Target Audience
 
-TechSoup (2025) Technology for Nonprofits: Website Essentials. Available at: https://www.techsoup.org (Accessed: 18 April 2026).
+The website serves multiple audience stakeholders, each with distinct priorities:
 
-W3Schools (2025) Responsive Web Design Tutorial. Available at: https://www.w3schools.com/css/css_rwd_intro.asp (Accessed: 18 April 2026).
+| Audience | Primary Needs |
+|-----------|--------------|
+| **NGO leaders & practitioners** | Find funding programmes, apply for grants, locate training resources |
+| **Grant applicants** | Access eligibility criteria, deadlines, and application materials |
+| **Donors (corporate & individual)** | Understand impact (statistics, stories), make donations, download annual reports |
+| **Training participants** | Access course schedules, materials, registrations, certificates |
+| **Board & governance members** | Review impact data, fund distribution statistics, governance policies |
+| **General public & media** | Understand the organisation, find stories and impact data |
 
-Google (2025) Google Analytics for Nonprofits. Available at: https://analytics.google.com (Accessed: 18 April 2026).
+---
 
-Internet World Stats (2025) Internet Usage Statistics - Africa. Available at: https://www.internetworldstats.com/af/za.htm (Accessed: 18 April 2026).
+## 5. Technical Requirements
 
-Mailchimp (2025) Email Marketing for Nonprofits. Available at: https://mailchimp.com/resources/nonprofit-email-marketing/ (Accessed: 18 April 2026).
+| Requirement | Detail |
+|-------------|--------|
+| **Languages** | HTML5, CSS3, JavaScript — straightforward codebase for in-house maintenance |
+| **Mobile Responsive** | **Yes** — mobile-first responsive design with breakpoints at 320px, 768px, 1024px+ |
+| **Browser Support** | Chrome, Firefox, Safari, Edge (latest 2 versions) |
+| **Accessibility** | WCAG 2.1 Level AA — semantic HTML, ARIA labels, keyboard navigation support |
+| **Performance** | Target: under 3 seconds page load on mobile networks (township use case) |
+| **Security** | HTTPS, spam prevention on contact forms |
+| **Domain** | comchest.org.za (to be retained) |
+| **Hosting** | Reliable shared or managed hosting (currently on shared — recommended upgrade) |
+| **Integrations** | Mailchimp (existing partnership); possible future donation gateway (board approval required) |
 
-IMPLEMENTATION COMPLETED
+---
 
-The site has been constructed to include the following:
+## 6. Design Approach
 
-Pages Implemented
-- index.html - Homepage consisting of hero, impact statistics, programs overview, success stories.
-- about.html - History of the organisation, mission and vision, values, management team.
-- programs.html - Specific programmes of funding with eligibility criteria.
-- stories.html - Impact stories sector filters.
-- contact.html - contact form with routing to a department based on inquiry type.
+### Aesthetic Direction
 
-Features Implemented
-- Page based navigation that use real pages (as opposed to anchor-based ones).
-- Responsive menu with hamburger (CSS-only, no JavaScript)
-- keyboard access with skip-to-main-content.
-- Concentration It uses:focus-visible to navigate by keyboard.
-- Semantic HTML elements (header, main, footer, nav, article)
-- ARIA prompting marks of navigation and interaction points.
-- Routing based on contacts department.
-- Impact statistics section
-- Quotations and testimonials.
-- theming CSS custom properties.
+The design vision is to communicate credibility, professionalism, and warmth — without appearing trendy or flashy. The site should read like an established, trusted institution rather than a startup. Most NGO stakeholders are long-time sector practitioners who value clear information and straightforward navigation over visual flair.
 
-Accessibility Features
-- Keyboard link to skip over.
-- Perceptible focus indicators (3px gold outline)
-- Semantic HTML structure
-- ARIA labels as required.
-- Mobile-responsive design
+### Color Palette
 
-Technical
-- HTML5 + CSS3 (JavaScript) is not needed.
-- Mobile-first responsive design
-- Checkbox-hackedCSS-only hamburger menu.
+| Colour | Hex | Usage |
+|--------|-----|-------|
+| Navy | `#1B3A8A` | Navigation, headers, primary text — trust and authority |
+| Green | `#2D7A4C` | CTAs, positive indicators, section accents — growth and health |
+| Gold | `#D4A844` | Highlight text, tags, nav active state — warmth and recognition |
+| Light background | `#F8F7F5` | Soft neutral background for content sections |
+
+### Typography & Layout
+
+- Font: Segoe UI / Tahoma — clean, readable, neutral (11pt / 1rem)
+- Line spacing: 1.5
+- Clear content hierarchy: major actions (Apply for Funding, Donate, Contact) immediately visible
+- Mobile-first: default styles optimised for mobile, enhanced for larger screens
+
+### Accessibility by Design
+
+The site will be built to WCAG 2.1 Level AA from the ground up rather than retrofitted — ensuring:
+- Skip-to-content navigation links
+- Visible focus states for all keyboard users
+- Semantic HTML structure (header, nav, main, footer, article, section)
+- ARIA labels and roles at every touchpoint
+- Colour contrast: 4.5:1 minimum for all text
+
+---
+
+## 7. Sitemap & Page Structure
+
+```
+Community Chest of the Western Cape
+├── index.html          — Homepage (hero, stats, legacy, programmes overview, supported orgs, CTA cards, contact)
+├── about.html          — About (history, mission & vision, values, leadership/board)
+├── programs.html       — Funding programmes (Health, Education, Community Development, Income Generation)
+├── stories.html        — Impact Stories (featured stories with quotes, sector cards, sector filter grid)
+├── contact.html        — Contact (departments, contact form, address/hours, map)
+└── enquiry.html        — Service Enquiry (grants, training, partnerships, volunteering, media)
+```
+
+**Approximately 6 primary pages.** The structure favours page-level navigation over single-page anchor scroll, as each content unit has sufficient depth to warrant its own URL.
+
+---
+
+## 8. Wireframes
+
+Low-fidelity wireframes were produced in the planning phase to establish layout, content hierarchy, and session flow before development. Wireframes cover the homepage, the programmes/grants layout, and the contact/enquiry layout across desktop, tablet, and mobile viewports.
+
+Key decisions captured in wireframes:
+- Hero section with primary grant CTA positioned above the fold
+- Impact statistics in a 4-column grid on desktop, stacking on mobile
+- Programme overview in a 6-card grid with scroll-to detail sections on `programs.html`
+- Stories in a 2-column layout (large featured story + 4-card grid)
+- Contact with a two-column layout (info + form)
+
+Wireframes were exported from the project's `wireframe.html` file.
+
+---
+
+## 9. Content Plan
+
+| Section | Pages | Content |
+|---------|-------|---------|
+| **Impact Statistics** | `index.html` | Years active (96), projects funded yearly (258), leaders trained (10,000+), provinces reached (4) — displayed in a prominent 4-item grid above the fold |
+| **Our Legacy / About** | `about.html` | 96-year history, mission & vision cards, values grid (Integrity, Collaboration, Excellence, Respect), leadership/board team cards |
+| **Grant Programmes** | `programs.html` | Four funding streams (Health, Education, Community Development, Income Generation) — each with eligibility criteria, focus areas, and entry CTA; plus a Capacity Building section (governance, financial management, project management, fundraising) |
+| **Impact Stories** | `stories.html` | Three detailed, quote-driven featured stories; four short sector-filter cards (Health, Education, Community Development, Income Generation) |
+| **Contact & Enquiry** | `contact.html` | Department-coded contact cards, full name/email/phone/inquiry-type contact form, Google Maps embed |
+| **Enquiry Form** | `enquiry.html` | First name/last name/email/phone/enquiry type/date/guests/message; quick-contact cards (call, visit, email) |
+| **Footer** | All pages | Organisation description, PBO registration, quick links, NGO links, donor links, copyright |
+
+---
+
+## 10. Timeline & Milestones
+
+| Week | Dates | Deliverables |
+|------|-------|--------------|
+| 1 | 13–19 April | Project planning, content strategy, wireframes, file structure setup |
+| 2 | 20–26 April | All 6 HTML pages built (index, about, programs, stories, contact, enquiry), navigation implemented |
+| 3 | 27 April – 3 May | Full CSS styling, responsive design, hamburger menu, image sourcing from Pexels |
+| 4 | 4–10 May | HTML validation, ARIA labels, `aria-current`, skip-to-content links, CSS variables, mobile testing |
+| 5 | 11–17 May | Bug fixes, comprehensive README, commit history, axe DevTools testing, screen-reader testing |
+| Launch | 15 May 2026 | Site deployed publicly and ready for production use |
+
+---
+
+## 11. Budget & Costs
+
+| Item | Description | Cost (ZAR) |
+|------|-------------|-----------|
+| Web Design | Wireframes, mockups, colour system, branding alignment | R 3,000 |
+| Development | 6 HTML pages + CSS + JavaScript, dev/testing | R 6,000 |
+| Testing & QA | HTML validation, WCAG 2.1 AA audit, axe DevTools, browser testing | R 2,000 |
+| Project Management | Planning, documentation, deployments, stakeholder updates | R 1,000 |
+| **Subtotal — Development** | | **R 12,000** |
+| Domain registration | comchest.org.za, annual renewal | R 350 |
+| Hosting | Shared/managed, annual | R 3,500 |
+| SSL Certificate | Annual renewal | R 1,200 |
+| Support & Updates | Ongoing maintenance (per year) | R 3,000 |
+| **Total — Year 1** | | **R 20,050** |
+
+*Development budget capped at R12,000 as per board-approved scope. All prices in South African Rand (ZAR).*
+
+---
+
+## 12. References
+
+- Community Chest Western Cape (2025) *Annual Report 2024*. Cape Town: Community Chest Western Cape.
+- Community Chest of the Western Cape (2025) 'What We Do'. Available at: https://www.comchest.org.za/ (Accessed: 19 May 2026).
+- ForGood (2025) *ForGood South Africa Non-Profit Register*. Available at: https://www.forgood.co.za/ (Accessed: 18 April 2026).
+- World Wide Web Consortium (W3C) (2018) *Web Content Accessibility Guidelines (WCAG) 2.1*. Available at: https://www.w3.org/WAI/WCAG21/quickref/ (Accessed: 18 April 2026).
+- South African Nonprofit Council (2025) *NGO Best Practices in South Africa*. Available at: https://www.sanpco.org.za (Accessed: 18 April 2026).
+- Charity Water (2025) 'Nonprofit Website Design Guide'. Available at: https://www.charitywater.org/blog/nonprofit-website/ (Accessed: 18 April 2026).
+- TechSoup (2025) 'Technology for Nonprofits: Website Essentials'. Available at: https://www.techsoup.org (Accessed: 18 April 2026).
+- W3Schools (2025) 'Responsive Web Design Tutorial'. Available at: https://www.w3schools.com/css/css_rwd_intro.asp (Accessed: 18 April 2026).
+- Google (2025) 'Google Analytics for Nonprofits'. Available at: https://analytics.google.com (Accessed: 18 April 2026).
+- Internet World Stats (2025) 'Internet Usage Statistics — Africa'. Available at: https://www.internetworldstats.com/af/za.htm (Accessed: 18 April 2026).
+- Mailchimp (2025) 'Email Marketing for Nonprofits'. Available at: https://mailchimp.com/resources/nonprofit-email-marketing/ (Accessed: 18 April 2026).
+- Deque Systems (2025) 'axe DevTools Accessibility Testing'. Available at: https://www.deque.com/axe/devtools/ (Accessed: 18 April 2026).
+- WebAIM (2025) 'Web Accessibility In Mind — Contrast Checker'. Available at: https://webaim.org/resources/contrastchecker/ (Accessed: 19 May 2026).
+
+---
+
+## Student Information
+
+- **Name:** [Your Name]
+- **Student Number:** [Your Number]
+- **Module:** WEDE5020 — Web Design and Development
+- **Submission Date:** 19 May 2026
