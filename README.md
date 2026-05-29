@@ -25,9 +25,9 @@ Students & creatives — motivated by the non-conformist vibe of the town
 
  The key features and functions are described.The key features and functions are explained.
 
--[x] Homepage with hero section and call-to-action buttons
+- [x] Homepage with hero section and call-to-action buttons
 - [x] Community page with history, mission and community events
--[x] Full menu page with categorized items and pricing: Specialty Coffee, Breakfast, Lunch, Baked Goods, and Drinks.
+- [x] Full menu page with categorized items and pricing: Specialty Coffee, Breakfast, Lunch, Baked Goods, and Drinks.
 Frequent weekly promotions on
 - [x] Specials/Deals page
 We also have the option to place a contact form on the page with the location, directions (Google Maps embed), phone number, opening hours etc. if you want to.We also have the option of providing a contact form on the page with location, directions (Google Maps embed), phone number, opening hours, etc. if you want.
