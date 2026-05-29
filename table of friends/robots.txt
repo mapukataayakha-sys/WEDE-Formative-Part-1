@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tableoffriends.co.za/sitemap.xml

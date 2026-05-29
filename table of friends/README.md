@@ -41,8 +41,24 @@ Table of Friends Coffeeshop and More is a community coffee shop located at Old C
 - [x] CSS variables and custom properties for consistent theming
 - [x] Print stylesheet for browser printing
 - [x] Respects `prefers-reduced-motion` for accessibility
+- [x] **Part 3: Form validation with real-time error/success messages**
+- [x] **Part 3: Lightbox gallery for image viewing**
+- [x] **Part 3: Scroll-to-top button (appears after scrolling 300px)**
+- [x] **Part 3: Smooth scrolling for anchor links**
+- [x] **Part 3: Dynamic copyright year**
+- [x] **Part 3: Active navigation highlighting based on current page**
+- [x] **Part 3: SEO: sitemap.xml and robots.txt files**
+- [ ] **Part 3: Website deployed and live** (pending deployment)
 
-## 5. Design Approach
+### Content Research
+
+Research and sourcing documentation available in `documents/research_content.txt`
+
+### Deployment Link
+
+- **Live URL:** (to be added after deployment to GitHub Pages/Netlify)
+
+## 6. Design Approach
 
 ### Color Palette
 - Primary Brown: `#2c1810` — warm, earthy tones for headers and navigation
@@ -80,9 +96,9 @@ Table of Friends Coffeeshop
 
 - **HTML5** — Semantic markup with proper heading hierarchy, ARIA attributes, and ARIA live regions
 - **CSS3** — Custom properties (CSS variables), reset, responsive grid layouts, mobile-first media queries
-- **JavaScript (ES6)** — Mobile hamburger navigation toggle
+- **JavaScript (ES6)** — Mobile hamburger navigation, form validation, lightbox gallery, scroll-to-top, smooth scrolling
 - **Assets** — Images sourced from Pexels.com (locally hosted)
-- **Forms** — Placeholder mailto forms; can be connected to Formspree or similar service
+- **Forms** — Client-side validation with success/error messages (mailtoless)
 
 ## 8. Accessibility Features
 
@@ -117,6 +133,20 @@ Table of Friends Coffeeshop
 - [x] `<footer role="contentinfo">` and `<header role="banner">` on all pages
 - [x] All files committed to GitHub with descriptive messages
 
+## 10. Part 3 Completion Checklist
+
+- [x] Form validation with real-time feedback
+- [x] Email and phone validation using regex patterns
+- [x] Success/error messages with role="alert" and aria-live
+- [x] Lightbox gallery with click-to-open functionality
+- [x] Escape key and click-outside-to-close for lightbox
+- [x] Scroll-to-top button (appears after 300px scroll)
+- [x] Smooth scrolling for anchor links
+- [x] Dynamic copyright year (auto-updates)
+- [x] Active navigation state management via JavaScript
+- [x] sitemap.xml for SEO
+- [x] robots.txt for SEO
+
 ## 10. Changelog
 
 | Date | Version | Changes |
@@ -125,8 +155,9 @@ Table of Friends Coffeeshop
 | 2026-04-15 | 0.2.0 | Implemented HTML5 semantic structure with header, nav, main, footer, skip-to-content links, and ARIA attributes |
 | 2026-04-17 | 0.3.0 | Added full CSS with variables, reset, responsive hamburger menu, and mobile-first media queries |
 | 2026-04-19 | 0.4.0 | Added ARIA labels, aria-current="page" on active nav, focus-visible styles, accessibility features |
-| 2026-04-21 | 0.5.0 | Separated all content to real standalone HTML pages (replaced meta-refresh redirects), added contact and enquiry pages |
+| 2026-04-21 | 0.5.0 | Separated all content to real standalone HTML pages, added contact and enquiry pages |
 | 2026-05-19 | 1.0.0 | Part 1 complete — all files ready for submission; downloaded images locally; added comprehensive README |
+| 2026-05-29 | 2.0.0 | Part 3 complete — JavaScript functionality: form validation, lightbox gallery, scroll-to-top, smooth scroll, dynamic year, active nav highlight; added meta keywords to all pages; added research documentation |
 
 ## 11. References (Harvard Style)
 

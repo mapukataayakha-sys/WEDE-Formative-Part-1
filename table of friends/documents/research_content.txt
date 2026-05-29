@@ -1,0 +1,40 @@
+# Content Research and Sourcing - Table of Friends Coffeeshop
+
+## 1. Business Information Sources
+- Instagram: https://www.instagram.com/tableoffriends (social media presence)
+- Google Business Profile: https://business.google.com (location verification)
+- Old Castle Brewery complex information: https://www.oldcastlebrewery.com (location context)
+
+## 2. Coffee Shop Industry Research
+- SA Coffee Culture: Coffee shops in South Africa average R25-50 per coffee
+- Popular coffee types in Cape Town: Espresso, Cappuccino, Flat White, Americano, Latte
+- Average pricing research from local cafes: R35-85 for menu items
+
+## 3. Image Sources (Pexels License - Free for commercial use)
+- pexels-photo-18105587.webp - Coffee shop interior
+- pexels-photo-6646855.jpeg - Barista behind counter
+- pexels-photo-29120540.webp - Café seating area
+- free-photo-of-interior-of-a-modern-cafe.jpeg - Modern café interior
+
+## 4. Community Event Research
+- Open Mic Night: Popular at Woodstock creative venues
+- Book Club: Monthly gatherings common in Cape Town cafes
+- Community Breakfast: First Friday initiatives in the area
+
+## 5. Technical References
+- WCAG 2.1 Guidelines: https://www.w3.org/WAI/WCAG21/quickref/
+- Mobile-first design: https://www.w3schools.com/css/css_rwd_intro.asp
+- Form validation patterns: https://developer.mozilla.org/en-US/docs/Web/HTML
+
+## 6. Map Location
+- Google Maps coordinates: -33.9249° S, 18.4241° E (Woodstock, Cape Town)
+- 6 Beach Road, Old Castle Brewery, Woodstock
+
+## 7. SEO Keywords Research
+Primary keywords: coffee shop, woodstock, cape town, artisan coffee, café
+Secondary keywords: breakfast, lunch, catering, community events, specials
+
+## 8. Color Palette Inspiration
+- Earthy tones inspired by coffee beans and wooden furniture
+- Terracotta accent from coffee roast colors
+- Cream background for warmth and readability

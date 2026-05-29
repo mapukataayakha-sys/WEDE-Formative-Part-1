@@ -5,17 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table of Friends Coffeeshop — Woodstock, Cape Town</title>
     <meta name="description" content="A community coffee shop in the heart of Woodstock, Cape Town. Artisan coffee, fresh food, genuine connection. Open Mon–Fri, 7am–4:30pm.">
+    <meta name="keywords" content="coffee shop, table of friends, woodstock, cape town, artisan coffee, cafe, breakfast, lunch, catering, community events">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- Skip-to-content link for accessibility -->
     <a href="#main-content" class="skip-link">Skip to main content</a>
 
+    <!-- Header with navigation -->
     <header role="banner">
         <nav role="navigation" aria-label="Main navigation">
             <div class="nav-container">
                 <a href="index.html" class="logo" aria-label="Table of Friends Coffeeshop home">Table of Friends</a>
                 <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">Menu</label>
                 <input type="checkbox" id="nav-toggle" class="nav-toggle">
+                <!-- Navigation menu with active page indicator -->
                 <ul class="nav-menu">
                     <li><a href="index.html" aria-current="page">Home</a></li>
                     <li><a href="about.html">About</a></li>
@@ -295,6 +299,12 @@
             </div>
         </section>
 
+        <div id="lightbox" class="lightbox" role="dialog" aria-label="Image gallery lightbox" aria-hidden="true">
+            <span class="lightbox-close" aria-label="Close lightbox">&times;</span>
+            <img class="lightbox-image" src="" alt="">
+            <div class="lightbox-caption"></div>
+        </div>
+
         <section class="values" id="values" aria-labelledby="values-heading">
             <div class="values-grid">
                 <div class="value-item">
@@ -403,7 +413,7 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&amp;copy; 2026 Table of Friends Coffeeshop. All rights reserved.</p>
+            <p>&amp;copy; <span id="year">2026</span> Table of Friends Coffeeshop. All rights reserved.</p>
         </div>
     </footer>
     <script src="js/main.js"></script>
