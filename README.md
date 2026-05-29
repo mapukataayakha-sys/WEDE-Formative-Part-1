@@ -25,15 +25,16 @@ Students & creatives — motivated by the non-conformist vibe of the town
 
  The key features and functions are described.The key features and functions are explained.
 
-[x] Homepage with hero section and call-to-action buttons
+-[x] Homepage with hero section and call-to-action buttons
 - [x] Community page with history, mission and community events
-[x] Full menu page with categorized items and pricing: Specialty Coffee, Breakfast, Lunch, Baked Goods, and Drinks.
-Frequent weekly promotions on - [x] Specials/Deals page
+-[x] Full menu page with categorized items and pricing: Specialty Coffee, Breakfast, Lunch, Baked Goods, and Drinks.
+Frequent weekly promotions on
+- [x] Specials/Deals page
 We also have the option to place a contact form on the page with the location, directions (Google Maps embed), phone number, opening hours etc. if you want to.We also have the option of providing a contact form on the page with location, directions (Google Maps embed), phone number, opening hours, etc. if you want.
 - [x] Enquiry page for other services
 Showcase your café space and food in the image gallery on the homepage.Include your café space and food in the image gallery on the homepage.
-- [ ] Newsletters (Offering, Literacy Newsletter, or Religious Education Newsletter)
-Yes, Newsletters signup form in dedicated section: [x]
+- [x] Newsletters (Offering, Literacy Newsletter, or Religious Education Newsletter)
+Yes, Newsletters signup form in dedicated section: 
 - [x] Chat section on the website (Chat, Skype, WhatsApp)
 - [x] Fully responsive mobile-first design
 - [x] Accessible navigation (WCAG 2.1 AA compliant)
@@ -48,7 +49,7 @@ Smooth scrolling for anchor links (part 3): [x]
 - [x] Part 3: Dynamic copyright year
 Highlighting the current page in the navigation bar (Part 3)
 The Sitemap.xml and Robots.txt files are included in the third part of the course, SEO.Sitemap.xml and robots.txt files are part of the SEO course.
-- [ ] Part 3: Website deployed and live (pending deployment)
+- [x] Part 3: Website deployed and live (pending deployment)
 
  Content Research
 
