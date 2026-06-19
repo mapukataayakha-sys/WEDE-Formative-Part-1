@@ -57,7 +57,7 @@ Documents containing research and sourcing information will be found in the file
 
  Deployment Link
 
-- Live URL: (https://github.com/mapukataayakha-sys/WEDE-Formative-Part-1)
+- Live URL: (https://github.com/mapukataayakha-sys/WEDE-Formative-Part-1) & https://6a358f70af7c922bc567c6b3--benevolent-treacle-20bc6f.netlify.app/
 
  6. Design Approach
 
